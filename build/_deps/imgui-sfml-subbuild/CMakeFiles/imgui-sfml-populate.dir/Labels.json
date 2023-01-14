@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/CMakeFiles/imgui-sfml-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-build.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-download.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-install.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-test.rule"
+		},
+		{
+			"file" : "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/CMakeFiles/imgui-sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-sfml-populate"
+		],
+		"name" : "imgui-sfml-populate"
+	}
+}

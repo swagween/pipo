@@ -1,0 +1,78 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5dd7970a06591beeb84bf13c83ffa16a3fe"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5dd798b89add4208782f182f6de9f6b2132"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5ddcee31248838a29ae5d8387f51b6c2cda"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5dd44956b6897e65e06bc572f360783996e"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5ddbe7f2cf0a39c9b53b9b70cbd99cf9258"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5ddab63cbd5c2815b1fbf81131486d8c31c"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5dd365ee0a83740a2e242433abeab6c641a"
+    },
+    {
+      "guid" : "b86bd35a91a3fe1a8a15f1d2253ce5dd7f1bc7b1725b4d931315be0758dd7430"
+    }
+  ],
+  "containerPath" : "/Users/alex_frasca/Documents/pipo/build/pipo.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/alex_frasca/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/alex_frasca/Library/Developer/Xcode/DerivedData/pipo-ejmdqzousugttaceonfrobzwzmvl/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alex_frasca/Library/Developer/Xcode/DerivedData/pipo-ejmdqzousugttaceonfrobzwzmvl/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

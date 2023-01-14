@@ -1,0 +1,30 @@
+Target dependency graph (8 targets)
+ZERO_CHECK in pipo, no dependencies
+sfml-system in pipo, depends on:
+ZERO_CHECK in pipo (explicit)
+sfml-window in pipo, depends on:
+ZERO_CHECK in pipo (explicit)
+sfml-system in pipo (explicit)
+sfml-graphics in pipo, depends on:
+ZERO_CHECK in pipo (explicit)
+sfml-system in pipo (explicit)
+sfml-window in pipo (explicit)
+ImGui-SFML in pipo, depends on:
+sfml-system in pipo (explicit)
+sfml-window in pipo (explicit)
+sfml-graphics in pipo (explicit)
+pipo in pipo, depends on:
+ZERO_CHECK in pipo (explicit)
+sfml-system in pipo (explicit)
+sfml-window in pipo (explicit)
+sfml-graphics in pipo (explicit)
+ImGui-SFML in pipo (explicit)
+ALL_BUILD in pipo, depends on:
+ZERO_CHECK in pipo (explicit)
+sfml-system in pipo (explicit)
+sfml-window in pipo (explicit)
+sfml-graphics in pipo (explicit)
+ImGui-SFML in pipo (explicit)
+pipo in pipo (explicit)
+install in pipo, depends on:
+ALL_BUILD in pipo (explicit)

@@ -1,0 +1,3107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1D8710C2DECA48D3B1361A25 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8BE361945BBE44A3B0EF2503 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D844BEAC277A4ADC8862A423 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D0C0E4DDE8854A9B84FE63DC /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 710D6FDC153D43AEA85ACFAF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				655246F841A458915BB7711A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8A8375F74DAF4518A0635AF4 /* PBXTargetDependency */,
+				12C58A9EEC544F82981BCE66 /* PBXTargetDependency */,
+				79041A3E1815477DBD9374FE /* PBXTargetDependency */,
+				260469DB50DE4EB384249371 /* PBXTargetDependency */,
+				97D5BD40E1D0483592BDB626 /* PBXTargetDependency */,
+				BCE1068647B4479B82708006 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7726EDE8EB442DA10A9C13 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				42EF0A2CEE288FEC762A397C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00307C182150477E9464DDE5 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5131912E32A4FC6A25710A7 /* Window.cpp */; };
+		04A817577AC44378B19C1435 /* ClockImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51079183C01421B8EE4E0DE /* ClockImpl.cpp */; };
+		0513332FD14D4556B4A7E9A8 /* cg_sf_conversion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 580A9A90265B4BE480060AD5 /* cg_sf_conversion.mm */; };
+		06CAB69823C44EAA8CF13CC1 /* RenderWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75707B0D38F54971A6BAB8C7 /* RenderWindow.cpp */; };
+		07B420F4E56A48AF8839BBE6 /* InputImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D48A5DBE6BD4C82968B5D98 /* InputImpl.mm */; };
+		0BF7B68B7ECC4D67935752E9 /* SensorManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A507144EFAE9417696C8D346 /* SensorManager.cpp */; };
+		10E1A240E13D407FB8026C9A /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48F78CAAED47452CB73734B3 /* imgui_draw.cpp */; };
+		1301A3EE639E4FB6915FBC75 /* WindowImplCocoa.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795D4B4B2EFF41FB995BBD24 /* WindowImplCocoa.mm */; };
+		1937027D94DE453FBB162F44 /* SFApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CABA37D408D4FC4BAC430AC /* SFApplication.m */; };
+		19717BABE57A4FE4922AAB71 /* AutoreleasePoolWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD9C64A06C1B4D9B9384D474 /* AutoreleasePoolWrapper.mm */; };
+		1A914B970B5A4C7A9EBBC622 /* Touch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEECDA3519D14678A08F38DA /* Touch.cpp */; };
+		1C297E644CEE4E4885E24308 /* imgui_stdlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69FE511C635F409B8120A4B3 /* imgui_stdlib.cpp */; };
+		1C75C75C63534B038979CB1F /* SFWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 922ED976019945F0B6A1E38E /* SFWindowController.mm */; };
+		1E0F7A07E4E6491F9A1D569D /* RenderTextureImplFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE50FA812E144A78FC58C72 /* RenderTextureImplFBO.cpp */; };
+		2314A3CA33BD443880AA19B7 /* SFViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E965D92BF9FE4C6F84DBDA65 /* SFViewController.mm */; };
+		268FCBEF651641DC83EA218D /* JoystickImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C65420DD6CC4ECCBC5700BE /* JoystickImpl.cpp */; };
+		30322609CD1342C095348A4C /* SFOpenGLView+mouse.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA64298E70164356833E7DD0 /* SFOpenGLView+mouse.mm */; };
+		3603CBB54EB045DD89871B56 /* SFSilentResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF1412DF3241F1AA58242E /* SFSilentResponder.m */; };
+		375678A21C3C408996357121 /* imgui-SFML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C56F038A5B44DB295B12A37 /* imgui-SFML.cpp */; };
+		3919F01B6D1849CA85D8507D /* RenderStates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1D5C7E8B34A410788E014CB /* RenderStates.cpp */; };
+		3A9ADEE6E8FA4804B9E332C1 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5896A9AF08943C3B246C95E /* imgui_tables.cpp */; };
+		3B2AC5AAA81A45F6921839E4 /* TextureSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EE21174FCD144769F1BBF6F /* TextureSaver.cpp */; };
+		3C567148AFBA45E382A425D1 /* Transformable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83B0252B65674A57954C965C /* Transformable.cpp */; };
+		4C55D0FD044148ACAB8CDDFB /* SleepImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5376CEF67EB54F0FACCF4907 /* SleepImpl.cpp */; };
+		4DC93BD5EC804EEDB5CB28DB /* MutexImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA0271F2437E480DB23D2107 /* MutexImpl.cpp */; };
+		4DFC112E7CE647D99BFE013D /* VideoMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 995D457E3BDE43DFB9034768 /* VideoMode.cpp */; };
+		55DB0E8DDF594A2FA5AEBDCA /* NSImage+raw.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5780CA1B167742D483819CE7 /* NSImage+raw.mm */; };
+		5B2FEF91DF554C0A939D0189 /* CursorImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = E313EDC8CC584A778AA02BF8 /* CursorImpl.mm */; };
+		5E076CC9D2E94BA1858EA197 /* GlResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 300995D3D5D54C77BB73842D /* GlResource.cpp */; };
+		61D39C01C1B1402282AD29AC /* VideoModeImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7D2A29A1CDB4EF899B80141 /* VideoModeImpl.cpp */; };
+		62AE587289F54501ABE5E8A8 /* View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32475BA820704AB19579E55B /* View.cpp */; };
+		63CDFDDFC7E54041BC760CE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03334089285B4EFAAA71E48E /* main.cpp */; };
+		6C1CB40D88A6467AAB344A34 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D56B18A736C4018A3786AFB /* Sprite.cpp */; };
+		6DE77E329FB14404A2DC98CD /* RenderTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6BAA1054574723851F3B6C /* RenderTarget.cpp */; };
+		7038D62A7E9A411C8F7BCC59 /* VertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A43E1A27DC468DBB1994EA /* VertexBuffer.cpp */; };
+		704C008BAB5149BCB3552F3E /* SFApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63597E1CF04FCFA931A127 /* SFApplicationDelegate.m */; };
+		71A0F081D67E425E81E8A561 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DA7529982854716AC24E491 /* imgui_demo.cpp */; };
+		78CCF807235A48C18C13B41A /* Sensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC228DDE82B4A6E9EF3B613 /* Sensor.cpp */; };
+		7B489990B3154A0F93AF4565 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70F8F5CB2A814A4D9E67E9C0 /* Time.cpp */; };
+		7F3DA2D440A24E9D871BCDCB /* Font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8119785271524121B7D8EC3C /* Font.cpp */; };
+		80608E6304E64F4FA843592F /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0D2F3F270AE454AA5A82858 /* Transform.cpp */; };
+		88CF5F9438164FB2A5443C81 /* SFWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 288717B9C92749849EA2C02B /* SFWindow.m */; };
+		906C7790F632404397082B51 /* Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63BB26E32E8C4A1E9BA488EA /* Mutex.cpp */; };
+		9150016846394530BBD7F294 /* Sleep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F82AF37DA6423C99B3FA34 /* Sleep.cpp */; };
+		99BE97D73E664A2EB504F1D4 /* RectangleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C48DB5C2BF44D5AFB676EE /* RectangleShape.cpp */; };
+		99DDBBF11B2A49C587250EAB /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77FBAA6D191E4507AB144194 /* Thread.cpp */; };
+		9CB2E8A7A9304EC3AD83914A /* Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4BA8044DA094749A45F1D50 /* Text.cpp */; };
+		A06C2688BFC14C548390497F /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF5324A27E4F8993085075 /* Shader.cpp */; };
+		A73A9C936D704654B1974BE4 /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BF96A0EEA0D40F19147D085 /* Vertex.cpp */; };
+		AF77AA891C5A463992526F7E /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C8B9E68BB403A910EB2A0 /* Joystick.cpp */; };
+		B03B010FDF024F14BBEE800E /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0DDDB3F9338405CA89D5060 /* Clock.cpp */; };
+		B0627351F8E04807A2DA5383 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45E3F95BF51B4B199836F85D /* imgui.cpp */; };
+		B2CAE860253048D89EA4C86C /* MemoryInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F458403D72D40ECABD9FFBA /* MemoryInputStream.cpp */; };
+		B5A5BEF6E8E54E01AE853CCC /* SFOpenGLView+keyboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 92D7F755DD324864A7E2F43F /* SFOpenGLView+keyboard.mm */; };
+		B61A25CA4D474622BE9F59FE /* Mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBD59489B3154A1A90ABEF67 /* Mouse.cpp */; };
+		B70EA95D912F4447947BFA95 /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD27D62A8894DCEBF231A81 /* Color.cpp */; };
+		BABBFE89C4F6491D85686283 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3957A8462DFB4798A71D34CC /* Texture.cpp */; };
+		BDC275E128B94FEFBE2F44A4 /* ConvexShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8629BBBAD06A4BE599DBE9D1 /* ConvexShape.cpp */; };
+		C322F1B7ED27401CB20260B1 /* SFContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A1C40E6954D1597D284A0 /* SFContext.mm */; };
+		C7FC36BF0A65453FA484514B /* GLCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35A2D7F0599B425290E7F085 /* GLCheck.cpp */; };
+		C89A88BD617C4449B431D8AC /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7F63B0B064989ABE3C375 /* Shape.cpp */; };
+		CA3A66C0095B4C66B6A74CED /* GLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815285A99ED443AEA3CCF9DB /* GLExtensions.cpp */; };
+		CBEFB77C434E426C85021EE8 /* RenderTextureImplDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6BFFB2084B4FC6B447504F /* RenderTextureImplDefault.cpp */; };
+		CCCE997DE1614F3ABFE4AF74 /* ThreadImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BA297A6E07344159D465188 /* ThreadImpl.cpp */; };
+		CF5FC6ED7A884E499BFB0F13 /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18F2AD8811DB45D9AD2925F8 /* Context.cpp */; };
+		CF7F2105CF894DBFAAA77BE0 /* JoystickManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E426517F3E5646478D9B2D01 /* JoystickManager.cpp */; };
+		D313E3B4351D44939BD3F0A3 /* SensorImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F0FD09DB6405BA09FF835 /* SensorImpl.cpp */; };
+		D349E776A84247828609C60F /* RenderTextureImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F8229EF5EDB4F62903595F2 /* RenderTextureImpl.cpp */; };
+		D4981E90B57344C8BB838854 /* SFKeyboardModifiersHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77A984E636B04B9AB398A90F /* SFKeyboardModifiersHelper.mm */; };
+		D4FEB038423047369D61AC17 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76EAACF8844949029B47E656 /* imgui_widgets.cpp */; };
+		D5B8CE19BB1748449B64D426 /* CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF7EFD2915F14569B2D9710F /* CircleShape.cpp */; };
+		D613AB3958FB4C81A2442FAC /* HIDInputManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89BB93164BCB4FE29AD1049C /* HIDInputManager.mm */; };
+		D82592871C3C40E08CB2E2B7 /* cpp_objc_conversion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01EBAC45AF984639B3E124C0 /* cpp_objc_conversion.mm */; };
+		D82E049A14094B2695A9501D /* BlendMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8367645E84574409AEF4E90A /* BlendMode.cpp */; };
+		D956195AB5E04E19B9A291FB /* ThreadLocal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7784B98EBCAB4C7DA7552696 /* ThreadLocal.cpp */; };
+		DA34C65C321B4C71BB0C76F8 /* Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2F1F6B8515A41BBB5D6BDC0 /* Keyboard.cpp */; };
+		DF787267CD634F5788C5B675 /* HIDJoystickManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDEC09AE2240F08A5F3CD9 /* HIDJoystickManager.cpp */; };
+		E27D8E3D192449F6B4B28780 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCB1564E8FC4835BC38A0EE /* String.cpp */; };
+		E28AF967CE3D4D5D83A2AC24 /* VertexArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC9EC819534742C6A82D69FB /* VertexArray.cpp */; };
+		E7CC62528F3844DBAFB13362 /* WindowImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8101FFDE7E0E46699CAD71C3 /* WindowImpl.cpp */; };
+		E902CF34C4A145B4A78D9DA1 /* GlContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840591DB435149DCBCA1D8AE /* GlContext.cpp */; };
+		E968D2F7BA034F008BCAAFA5 /* FileInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75AF90AC89F94E9FB1D76F96 /* FileInputStream.cpp */; };
+		E98D25FFAAE1427AA15E4E8F /* Lock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0842040FCAF4C1B883E4136 /* Lock.cpp */; };
+		EF3E11B1A3E74A04BD5C15D1 /* RenderTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AC2AC7D6F314C47A1FBD36C /* RenderTexture.cpp */; };
+		EFD42DE8196242BBB246C6E7 /* ClipboardImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A447AE0A0894E068F4B6090 /* ClipboardImpl.mm */; };
+		EFECC1E5993345B2A485002F /* Clipboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE1C4A9C5F4CA794AE6412 /* Clipboard.cpp */; };
+		F2A0A86247EB4A18A62FA062 /* ImageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BA10B4199BD48898F38354E /* ImageLoader.cpp */; };
+		F3D86219D68D4EA59C3D4B41 /* Glsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A6BC9D5CC426F825B01B4 /* Glsl.cpp */; };
+		F430A22FA3BB4C4F8B9BEFE9 /* GLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A43C9798884601A3949173 /* GLLoader.cpp */; };
+		F588833F282B4F0E9717DBEE /* ThreadLocalImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5763629D806943F884B2D8A4 /* ThreadLocalImpl.cpp */; };
+		F706A2008EAE4C819E30E898 /* Err.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6799C6D59E2440CFAA0FF428 /* Err.cpp */; };
+		F7520CEA9A15484AA7FAFDBA /* SFOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30AB89D4136B44188A5F9E03 /* SFOpenGLView.mm */; };
+		F957B5CCACAE47D29621E1CF /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FF0FBE63D004DC2AF8FD3A5 /* Image.cpp */; };
+		FC0CB14460724FEF8137D4FA /* Cursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E691CF35EF154C49A7E301FF /* Cursor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FF5F6E3D2AE4CABAD61E0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0086066FF2EA452DA128389A;
+			remoteInfo = "sfml-graphics";
+		};
+		219CB29F1A284D3788178C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		26574CB4938F471D87ED3CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84C2327773444BBC0B1C24;
+			remoteInfo = "sfml-system";
+		};
+		2E7AEF6191BE431B961F501A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0086066FF2EA452DA128389A;
+			remoteInfo = "sfml-graphics";
+		};
+		377FDBC69600477B98D2C63E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		3AF4839E6B7B42138EFBAE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84C2327773444BBC0B1C24;
+			remoteInfo = "sfml-system";
+		};
+		405299CA02BC4301B8F3ED43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062F227431F44441812B4F05;
+			remoteInfo = "ImGui-SFML";
+		};
+		520EEF3675C6486B8440699F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84C2327773444BBC0B1C24;
+			remoteInfo = "sfml-system";
+		};
+		65A20BD312C74E1E9CD46A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB53D44A04E64951A50D879D;
+			remoteInfo = "sfml-window";
+		};
+		7256B2486A794BF3B3B6E375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0086066FF2EA452DA128389A;
+			remoteInfo = "sfml-graphics";
+		};
+		7F569DC7CB5D461B989E7406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062F227431F44441812B4F05;
+			remoteInfo = "ImGui-SFML";
+		};
+		840A7DB9EDA04CE4822F4705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		934935C3A87B49489CC1D0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84C2327773444BBC0B1C24;
+			remoteInfo = "sfml-system";
+		};
+		943F735DC5BA4D09819375E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC7FBB2DD9240D29F4F3025;
+			remoteInfo = pipo;
+		};
+		A3E3672C740E480AB17D54D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB53D44A04E64951A50D879D;
+			remoteInfo = "sfml-window";
+		};
+		C06D432207774D0EA3C6D757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C0E4DDE8854A9B84FE63DC;
+			remoteInfo = ALL_BUILD;
+		};
+		D10DB4039E5749EE901D23F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C84C2327773444BBC0B1C24;
+			remoteInfo = "sfml-system";
+		};
+		DAE51487AFCA44DC8A2D0499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB53D44A04E64951A50D879D;
+			remoteInfo = "sfml-window";
+		};
+		E4D23A311446456B811679C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		E6E123131B5744F4B0DA808C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		F620BD294A8E4FFF9B507247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580C24375CEE4529BD918915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB53D44A04E64951A50D879D;
+			remoteInfo = "sfml-window";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0115F58DEE794583AE2091BA /* InputImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InputImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/InputImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		01B28453F8F64FD3915403D6 /* Utf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Utf.hpp; path = "build/_deps/sfml-src/include/SFML/System/Utf.hpp"; sourceTree = SOURCE_ROOT; };
+		01EBAC45AF984639B3E124C0 /* cpp_objc_conversion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cpp_objc_conversion.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/cpp_objc_conversion.mm"; sourceTree = SOURCE_ROOT; };
+		03334089285B4EFAAA71E48E /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		068982DA09564BCFA411598A /* WindowStyle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WindowStyle.hpp; path = "build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp"; sourceTree = SOURCE_ROOT; };
+		08304BC1F00C49CE931689E8 /* SFApplicationDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFApplicationDelegate.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFApplicationDelegate.h"; sourceTree = SOURCE_ROOT; };
+		0A547651C8434EB6993F5426 /* PhysicsComponent.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PhysicsComponent.hpp; path = src/PhysicsComponent.hpp; sourceTree = SOURCE_ROOT; };
+		0D6BFFB2084B4FC6B447504F /* RenderTextureImplDefault.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderTextureImplDefault.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.cpp"; sourceTree = SOURCE_ROOT; };
+		0FF0FBE63D004DC2AF8FD3A5 /* Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Image.cpp"; sourceTree = SOURCE_ROOT; };
+		11E9D7CE0A22402EA136DDD7 /* MemoryInputStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MemoryInputStream.hpp; path = "build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp"; sourceTree = SOURCE_ROOT; };
+		15E1D9718709468DA0747CBC /* SensorImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SensorImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		161C55E3B7B94F0AAA607A73 /* SFOpenGLView+mouse_priv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "SFOpenGLView+mouse_priv.h"; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView+mouse_priv.h"; sourceTree = SOURCE_ROOT; };
+		16B71F61B7CD4CF7BF4A04AD /* ThreadLocalImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocalImpl.hpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/ThreadLocalImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		18F2AD8811DB45D9AD2925F8 /* Context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Context.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Context.cpp"; sourceTree = SOURCE_ROOT; };
+		1A52F18F9656440B9CA55F4A /* libsfml-system-d.2.5.1.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libsfml-system-d.2.5.1.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A54145A2F5E4DDD8CFD1D2D /* Font.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Font.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Font.hpp"; sourceTree = SOURCE_ROOT; };
+		1C56F038A5B44DB295B12A37 /* imgui-SFML.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "imgui-SFML.cpp"; path = "build/_deps/imgui-sfml-src/imgui-SFML.cpp"; sourceTree = SOURCE_ROOT; };
+		1C65420DD6CC4ECCBC5700BE /* JoystickImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JoystickImpl.cpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/JoystickImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		1CABA37D408D4FC4BAC430AC /* SFApplication.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SFApplication.m; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFApplication.m"; sourceTree = SOURCE_ROOT; };
+		1D56B18A736C4018A3786AFB /* Sprite.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sprite.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Sprite.cpp"; sourceTree = SOURCE_ROOT; };
+		1E6A1C40E6954D1597D284A0 /* SFContext.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = SFContext.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFContext.mm"; sourceTree = SOURCE_ROOT; };
+		1EA1C31B50BE431C8942D53D /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		1F458403D72D40ECABD9FFBA /* MemoryInputStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MemoryInputStream.cpp; path = "build/_deps/sfml-src/src/SFML/System/MemoryInputStream.cpp"; sourceTree = SOURCE_ROOT; };
+		1F8F3BB946B5410E8D942A99 /* ClockImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ClockImpl.hpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/ClockImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		1FBDEC09AE2240F08A5F3CD9 /* HIDJoystickManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HIDJoystickManager.cpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/HIDJoystickManager.cpp"; sourceTree = SOURCE_ROOT; };
+		20B9FBA4094742E28F531A44 /* ThreadLocalPtr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocalPtr.hpp; path = "build/_deps/sfml-src/include/SFML/System/ThreadLocalPtr.hpp"; sourceTree = SOURCE_ROOT; };
+		20C1DB06C0BE4A30A23D160E /* String.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = String.hpp; path = "build/_deps/sfml-src/include/SFML/System/String.hpp"; sourceTree = SOURCE_ROOT; };
+		217860E803C246E089BE4D84 /* SFKeyboardModifiersHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFKeyboardModifiersHelper.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFKeyboardModifiersHelper.h"; sourceTree = SOURCE_ROOT; };
+		229C147FFC364EEA98926635 /* SFContext.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SFContext.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFContext.hpp"; sourceTree = SOURCE_ROOT; };
+		22DCA78F70CB47119774E923 /* Sleep.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Sleep.hpp; path = "build/_deps/sfml-src/include/SFML/System/Sleep.hpp"; sourceTree = SOURCE_ROOT; };
+		237FE6BB02EA41238CABAD41 /* NSImage+raw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSImage+raw.h"; path = "build/_deps/sfml-src/src/SFML/Window/OSX/NSImage+raw.h"; sourceTree = SOURCE_ROOT; };
+		27A43E1A27DC468DBB1994EA /* VertexBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VertexBuffer.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/VertexBuffer.cpp"; sourceTree = SOURCE_ROOT; };
+		288717B9C92749849EA2C02B /* SFWindow.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SFWindow.m; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFWindow.m"; sourceTree = SOURCE_ROOT; };
+		2AE50FA812E144A78FC58C72 /* RenderTextureImplFBO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderTextureImplFBO.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.cpp"; sourceTree = SOURCE_ROOT; };
+		2AE7F63B0B064989ABE3C375 /* Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Shape.cpp"; sourceTree = SOURCE_ROOT; };
+		2BD3CF4F410941F4A420468F /* RenderTarget.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderTarget.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp"; sourceTree = SOURCE_ROOT; };
+		2BF5A8E61130402488EBAF0E /* InputStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InputStream.hpp; path = "build/_deps/sfml-src/include/SFML/System/InputStream.hpp"; sourceTree = SOURCE_ROOT; };
+		2C4A6BC9D5CC426F825B01B4 /* Glsl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Glsl.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Glsl.cpp"; sourceTree = SOURCE_ROOT; };
+		2F4EFEC74E3D4E1CAF76FCC5 /* Sprite.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Sprite.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp"; sourceTree = SOURCE_ROOT; };
+		2F8229EF5EDB4F62903595F2 /* RenderTextureImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderTextureImpl.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		300995D3D5D54C77BB73842D /* GlResource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GlResource.cpp; path = "build/_deps/sfml-src/src/SFML/Window/GlResource.cpp"; sourceTree = SOURCE_ROOT; };
+		30AB89D4136B44188A5F9E03 /* SFOpenGLView.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = SFOpenGLView.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView.mm"; sourceTree = SOURCE_ROOT; };
+		32475BA820704AB19579E55B /* View.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = View.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/View.cpp"; sourceTree = SOURCE_ROOT; };
+		35A2D7F0599B425290E7F085 /* GLCheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLCheck.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/GLCheck.cpp"; sourceTree = SOURCE_ROOT; };
+		372D018C4F454F318B0E45BB /* CursorImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CursorImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/CursorImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		38093D6E17014449A43539EE /* VideoMode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = VideoMode.hpp; path = "build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp"; sourceTree = SOURCE_ROOT; };
+		3957A8462DFB4798A71D34CC /* Texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Texture.cpp"; sourceTree = SOURCE_ROOT; };
+		3B2C6F71A6B64F11870B9B1C /* WindowHandle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WindowHandle.hpp; path = "build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp"; sourceTree = SOURCE_ROOT; };
+		3BCB1564E8FC4835BC38A0EE /* String.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = String.cpp; path = "build/_deps/sfml-src/src/SFML/System/String.cpp"; sourceTree = SOURCE_ROOT; };
+		3BEF5324A27E4F8993085075 /* Shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shader.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Shader.cpp"; sourceTree = SOURCE_ROOT; };
+		3C47EF67BEC64CA5B8E14EC5 /* HIDInputManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HIDInputManager.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/HIDInputManager.hpp"; sourceTree = SOURCE_ROOT; };
+		3E1B84452D234242848407FD /* SFSilentResponder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFSilentResponder.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFSilentResponder.h"; sourceTree = SOURCE_ROOT; };
+		3EE21174FCD144769F1BBF6F /* TextureSaver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureSaver.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.cpp"; sourceTree = SOURCE_ROOT; };
+		3FDA04182B5B43179AA99485 /* AutoreleasePoolWrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AutoreleasePoolWrapper.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/AutoreleasePoolWrapper.h"; sourceTree = SOURCE_ROOT; };
+		41AE9E5A2B0548CF96BEA203 /* pipo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = pipo; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E3F95BF51B4B199836F85D /* imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = "build/_deps/imgui-src/imgui.cpp"; sourceTree = SOURCE_ROOT; };
+		46549C964DE845B1A2B3BC61 /* Clock.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Clock.hpp; path = "build/_deps/sfml-src/include/SFML/System/Clock.hpp"; sourceTree = SOURCE_ROOT; };
+		47D6F87B6F7C4506BC9F3191 /* SFOpenGLView+keyboard_priv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "SFOpenGLView+keyboard_priv.h"; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView+keyboard_priv.h"; sourceTree = SOURCE_ROOT; };
+		48F78CAAED47452CB73734B3 /* imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = "build/_deps/imgui-src/imgui_draw.cpp"; sourceTree = SOURCE_ROOT; };
+		4A447AE0A0894E068F4B6090 /* ClipboardImpl.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ClipboardImpl.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/ClipboardImpl.mm"; sourceTree = SOURCE_ROOT; };
+		4AC2AC7D6F314C47A1FBD36C /* RenderTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderTexture.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTexture.cpp"; sourceTree = SOURCE_ROOT; };
+		4DF46793D8DB4072866BDA50 /* Vector2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector2.hpp; path = "build/_deps/sfml-src/include/SFML/System/Vector2.hpp"; sourceTree = SOURCE_ROOT; };
+		4E05C658BE2A4E9C8FA3DCA1 /* Cursor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Cursor.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Cursor.hpp"; sourceTree = SOURCE_ROOT; };
+		50030DF0580B4864B3CBB7B0 /* Vector2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector2.inl; path = "build/_deps/sfml-src/include/SFML/System/Vector2.inl"; sourceTree = SOURCE_ROOT; };
+		516DA889951B4475B819053A /* Rect.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Rect.inl; path = "build/_deps/sfml-src/include/SFML/Graphics/Rect.inl"; sourceTree = SOURCE_ROOT; };
+		536935ED87DE425C8D18E6D7 /* String.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = String.inl; path = "build/_deps/sfml-src/include/SFML/System/String.inl"; sourceTree = SOURCE_ROOT; };
+		5376CEF67EB54F0FACCF4907 /* SleepImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SleepImpl.cpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		544BA2213FBA4742931869BB /* ObjectPool.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ObjectPool.hpp; path = src/ObjectPool.hpp; sourceTree = SOURCE_ROOT; };
+		554CDC167838442EA5F859E0 /* libsfml-graphics-d.2.5.1.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libsfml-graphics-d.2.5.1.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D688B4CF7C4FCF9011BE90 /* Utf.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Utf.inl; path = "build/_deps/sfml-src/include/SFML/System/Utf.inl"; sourceTree = SOURCE_ROOT; };
+		5763629D806943F884B2D8A4 /* ThreadLocalImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadLocalImpl.cpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/ThreadLocalImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		5780CA1B167742D483819CE7 /* NSImage+raw.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "NSImage+raw.mm"; path = "build/_deps/sfml-src/src/SFML/Window/OSX/NSImage+raw.mm"; sourceTree = SOURCE_ROOT; };
+		580A9A90265B4BE480060AD5 /* cg_sf_conversion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = cg_sf_conversion.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/cg_sf_conversion.mm"; sourceTree = SOURCE_ROOT; };
+		582CA7C7D9F54D458F82FF86 /* Transformable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Transformable.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp"; sourceTree = SOURCE_ROOT; };
+		59ACBA1E43084AE99E7F055A /* RectangleShape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RectangleShape.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp"; sourceTree = SOURCE_ROOT; };
+		5BE01F2759BE4042AF7B12DF /* freetype.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = freetype.framework; path = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks/freetype.framework"; sourceTree = "<absolute>"; };
+		5BF96A0EEA0D40F19147D085 /* Vertex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vertex.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Vertex.cpp"; sourceTree = SOURCE_ROOT; };
+		5DA7529982854716AC24E491 /* imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = "build/_deps/imgui-src/imgui_demo.cpp"; sourceTree = SOURCE_ROOT; };
+		5EF49B95D270415E91FC49ED /* Export.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Export.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Export.hpp"; sourceTree = SOURCE_ROOT; };
+		5F41ED1AFF3C459AA2A237F2 /* WindowImplDelegateProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowImplDelegateProtocol.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/WindowImplDelegateProtocol.h"; sourceTree = SOURCE_ROOT; };
+		623C4CA3191B49BFBEE8BCFD /* Err.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Err.hpp; path = "build/_deps/sfml-src/include/SFML/System/Err.hpp"; sourceTree = SOURCE_ROOT; };
+		63BB26E32E8C4A1E9BA488EA /* Mutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mutex.cpp; path = "build/_deps/sfml-src/src/SFML/System/Mutex.cpp"; sourceTree = SOURCE_ROOT; };
+		65A21D2E65784164B84C2456 /* OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		678CB64DC49B4D21B8BACCCA /* SFWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFWindow.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFWindow.h"; sourceTree = SOURCE_ROOT; };
+		6799C6D59E2440CFAA0FF428 /* Err.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Err.cpp; path = "build/_deps/sfml-src/src/SFML/System/Err.cpp"; sourceTree = SOURCE_ROOT; };
+		69FE511C635F409B8120A4B3 /* imgui_stdlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_stdlib.cpp; path = "build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp"; sourceTree = SOURCE_ROOT; };
+		6AA374F6E20F446E895A8F92 /* ConvexShape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ConvexShape.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp"; sourceTree = SOURCE_ROOT; };
+		6B1E807AE1574586855AC4EF /* libImGui-SFML_d.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libImGui-SFML_d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE0C3065A1142CDBBE8CBBC /* Event.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Event.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Event.hpp"; sourceTree = SOURCE_ROOT; };
+		6D48A5DBE6BD4C82968B5D98 /* InputImpl.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = InputImpl.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/InputImpl.mm"; sourceTree = SOURCE_ROOT; };
+		6D6C8B9E68BB403A910EB2A0 /* Joystick.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Joystick.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Joystick.cpp"; sourceTree = SOURCE_ROOT; };
+		6EA500AE76E24FCA94FF1228 /* Export.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Export.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Export.hpp"; sourceTree = SOURCE_ROOT; };
+		70D0D18C89644EFEB67D29A8 /* Transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Transform.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp"; sourceTree = SOURCE_ROOT; };
+		70F8F5CB2A814A4D9E67E9C0 /* Time.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Time.cpp; path = "build/_deps/sfml-src/src/SFML/System/Time.cpp"; sourceTree = SOURCE_ROOT; };
+		756A275E29F046B2BE6615E6 /* Texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Texture.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp"; sourceTree = SOURCE_ROOT; };
+		75707B0D38F54971A6BAB8C7 /* RenderWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderWindow.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderWindow.cpp"; sourceTree = SOURCE_ROOT; };
+		75AF90AC89F94E9FB1D76F96 /* FileInputStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileInputStream.cpp; path = "build/_deps/sfml-src/src/SFML/System/FileInputStream.cpp"; sourceTree = SOURCE_ROOT; };
+		76BC0B2BC8CA4CEA98417E75 /* SensorManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SensorManager.hpp; path = "build/_deps/sfml-src/src/SFML/Window/SensorManager.hpp"; sourceTree = SOURCE_ROOT; };
+		76EAACF8844949029B47E656 /* imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = "build/_deps/imgui-src/imgui_widgets.cpp"; sourceTree = SOURCE_ROOT; };
+		7736457311474BD290445A2A /* Context.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Context.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Context.hpp"; sourceTree = SOURCE_ROOT; };
+		7784B98EBCAB4C7DA7552696 /* ThreadLocal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadLocal.cpp; path = "build/_deps/sfml-src/src/SFML/System/ThreadLocal.cpp"; sourceTree = SOURCE_ROOT; };
+		77A984E636B04B9AB398A90F /* SFKeyboardModifiersHelper.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = SFKeyboardModifiersHelper.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFKeyboardModifiersHelper.mm"; sourceTree = SOURCE_ROOT; };
+		77FBAA6D191E4507AB144194 /* Thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Thread.cpp; path = "build/_deps/sfml-src/src/SFML/System/Thread.cpp"; sourceTree = SOURCE_ROOT; };
+		795D4B4B2EFF41FB995BBD24 /* WindowImplCocoa.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = WindowImplCocoa.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/WindowImplCocoa.mm"; sourceTree = SOURCE_ROOT; };
+		7A65862391C54B44A3ACB1B4 /* HIDJoystickManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HIDJoystickManager.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/HIDJoystickManager.hpp"; sourceTree = SOURCE_ROOT; };
+		7AFC496104FE4F5E9ED234D6 /* SleepImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SleepImpl.hpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		7BA297A6E07344159D465188 /* ThreadImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadImpl.cpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/ThreadImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		7BB1330C4717485593540C99 /* BlendMode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = BlendMode.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp"; sourceTree = SOURCE_ROOT; };
+		7C16653674C04632B887E124 /* CircleShape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CircleShape.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/CircleShape.hpp"; sourceTree = SOURCE_ROOT; };
+		7C1F0FD09DB6405BA09FF835 /* SensorImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SensorImpl.cpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SensorImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		7D1E8E5A501346C79EE33C74 /* Window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Window.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Window.hpp"; sourceTree = SOURCE_ROOT; };
+		7F0BC98904AD459984ADD046 /* Sensor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Sensor.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Sensor.hpp"; sourceTree = SOURCE_ROOT; };
+		7F6926102F5C48AA98CABE13 /* SFApplication.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFApplication.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFApplication.h"; sourceTree = SOURCE_ROOT; };
+		7FEB5A36BEE44C6ABFB132A4 /* Thread.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Thread.inl; path = "build/_deps/sfml-src/include/SFML/System/Thread.inl"; sourceTree = SOURCE_ROOT; };
+		80411E0FF63E4EF3B255C483 /* GlResource.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GlResource.hpp; path = "build/_deps/sfml-src/include/SFML/Window/GlResource.hpp"; sourceTree = SOURCE_ROOT; };
+		8101FFDE7E0E46699CAD71C3 /* WindowImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WindowImpl.cpp; path = "build/_deps/sfml-src/src/SFML/Window/WindowImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		8119785271524121B7D8EC3C /* Font.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Font.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Font.cpp"; sourceTree = SOURCE_ROOT; };
+		815285A99ED443AEA3CCF9DB /* GLExtensions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLExtensions.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.cpp"; sourceTree = SOURCE_ROOT; };
+		817036D57DC040DB9796669D /* Clipboard.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Clipboard.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp"; sourceTree = SOURCE_ROOT; };
+		8367645E84574409AEF4E90A /* BlendMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlendMode.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/BlendMode.cpp"; sourceTree = SOURCE_ROOT; };
+		83B0252B65674A57954C965C /* Transformable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Transformable.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Transformable.cpp"; sourceTree = SOURCE_ROOT; };
+		840591DB435149DCBCA1D8AE /* GlContext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GlContext.cpp; path = "build/_deps/sfml-src/src/SFML/Window/GlContext.cpp"; sourceTree = SOURCE_ROOT; };
+		84A43C9798884601A3949173 /* GLLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLLoader.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/GLLoader.cpp"; sourceTree = SOURCE_ROOT; };
+		8629BBBAD06A4BE599DBE9D1 /* ConvexShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvexShape.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/ConvexShape.cpp"; sourceTree = SOURCE_ROOT; };
+		88FBF7DB0DCC46C3AF55F353 /* SFWindowController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFWindowController.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFWindowController.h"; sourceTree = SOURCE_ROOT; };
+		890F8CCDB81F4CC68567286F /* RenderStates.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderStates.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp"; sourceTree = SOURCE_ROOT; };
+		8945B294C873443CB9D89DE0 /* SFViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFViewController.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFViewController.h"; sourceTree = SOURCE_ROOT; };
+		89BB93164BCB4FE29AD1049C /* HIDInputManager.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = HIDInputManager.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/HIDInputManager.mm"; sourceTree = SOURCE_ROOT; };
+		8BBEB97356C04953A573B985 /* GlContext.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GlContext.hpp; path = "build/_deps/sfml-src/src/SFML/Window/GlContext.hpp"; sourceTree = SOURCE_ROOT; };
+		8BC5FE67E7054D57872488D1 /* Color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Color.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Color.hpp"; sourceTree = SOURCE_ROOT; };
+		8CEE1C4A9C5F4CA794AE6412 /* Clipboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Clipboard.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Clipboard.cpp"; sourceTree = SOURCE_ROOT; };
+		8E63597E1CF04FCFA931A127 /* SFApplicationDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SFApplicationDelegate.m; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFApplicationDelegate.m"; sourceTree = SOURCE_ROOT; };
+		8F83AA410E8548309F40DA59 /* NativeActivity.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NativeActivity.hpp; path = "build/_deps/sfml-src/include/SFML/System/NativeActivity.hpp"; sourceTree = SOURCE_ROOT; };
+		922ED976019945F0B6A1E38E /* SFWindowController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = SFWindowController.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFWindowController.mm"; sourceTree = SOURCE_ROOT; };
+		925B322F1612481AA058CC1F /* Image.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Image.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Image.hpp"; sourceTree = SOURCE_ROOT; };
+		92D7F755DD324864A7E2F43F /* SFOpenGLView+keyboard.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "SFOpenGLView+keyboard.mm"; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView+keyboard.mm"; sourceTree = SOURCE_ROOT; };
+		9450A72A2016432FA2DC9E6B /* View.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = View.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/View.hpp"; sourceTree = SOURCE_ROOT; };
+		9481892198824BC48A7D8FF6 /* NonCopyable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = NonCopyable.hpp; path = "build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp"; sourceTree = SOURCE_ROOT; };
+		94D7082C96774704A416B610 /* InputImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InputImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/InputImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		95D20C6888A64E05A2DF33A7 /* Keyboard.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Keyboard.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp"; sourceTree = SOURCE_ROOT; };
+		995D457E3BDE43DFB9034768 /* VideoMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VideoMode.cpp; path = "build/_deps/sfml-src/src/SFML/Window/VideoMode.cpp"; sourceTree = SOURCE_ROOT; };
+		9BA10B4199BD48898F38354E /* ImageLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImageLoader.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/ImageLoader.cpp"; sourceTree = SOURCE_ROOT; };
+		9C170087CEF64EEEA6C84647 /* Glsl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Glsl.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Glsl.hpp"; sourceTree = SOURCE_ROOT; };
+		9D83B920A2F7463BBF52F53E /* libsfml-window-d.2.5.1.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libsfml-window-d.2.5.1.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8E552A92704741922883D6 /* RenderWindow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderWindow.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp"; sourceTree = SOURCE_ROOT; };
+		9F7899C471684452AA82A1DA /* SensorImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = SensorImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SensorImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		A0BF63BF6AD04CD8B51F3FF8 /* CursorImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CursorImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		A0E3B5C4DD3B481D959110B5 /* Scaling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Scaling.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/Scaling.h"; sourceTree = SOURCE_ROOT; };
+		A13284A84DAA4D35BDA0E496 /* Touch.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Touch.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Touch.hpp"; sourceTree = SOURCE_ROOT; };
+		A16B68C548294486964581B0 /* Text.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Text.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Text.hpp"; sourceTree = SOURCE_ROOT; };
+		A2F1F6B8515A41BBB5D6BDC0 /* Keyboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Keyboard.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Keyboard.cpp"; sourceTree = SOURCE_ROOT; };
+		A4BA8044DA094749A45F1D50 /* Text.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Text.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Text.cpp"; sourceTree = SOURCE_ROOT; };
+		A507144EFAE9417696C8D346 /* SensorManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SensorManager.cpp; path = "build/_deps/sfml-src/src/SFML/Window/SensorManager.cpp"; sourceTree = SOURCE_ROOT; };
+		A61D429A6DCD43E783F3F6F9 /* Joystick.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Joystick.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Joystick.hpp"; sourceTree = SOURCE_ROOT; };
+		A6A09E45D68449398EEDA350 /* Vector3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector3.hpp; path = "build/_deps/sfml-src/include/SFML/System/Vector3.hpp"; sourceTree = SOURCE_ROOT; };
+		A7D2A29A1CDB4EF899B80141 /* VideoModeImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VideoModeImpl.cpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/VideoModeImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		AA2A5923BA244CAA864D4097 /* Time.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Time.hpp; path = "build/_deps/sfml-src/include/SFML/System/Time.hpp"; sourceTree = SOURCE_ROOT; };
+		AA48FFF52A5E436B91158801 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "build/_deps/imgui-sfml-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		AB01C260F15B4B1E83ACB3A4 /* Vector3.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector3.inl; path = "build/_deps/sfml-src/include/SFML/System/Vector3.inl"; sourceTree = SOURCE_ROOT; };
+		AC5BC3866D834661965E9B4E /* WindowImplCocoa.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WindowImplCocoa.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/WindowImplCocoa.hpp"; sourceTree = SOURCE_ROOT; };
+		ACF6FF86207A49709C10CB35 /* JoystickImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = JoystickImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		AF0222D3C6034337BE4A05D1 /* Drawable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Drawable.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp"; sourceTree = SOURCE_ROOT; };
+		AF7DF7D6FADD48979CF47FE5 /* ThreadLocalPtr.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocalPtr.inl; path = "build/_deps/sfml-src/include/SFML/System/ThreadLocalPtr.inl"; sourceTree = SOURCE_ROOT; };
+		B0DDDB3F9338405CA89D5060 /* Clock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Clock.cpp; path = "build/_deps/sfml-src/src/SFML/System/Clock.cpp"; sourceTree = SOURCE_ROOT; };
+		B10A75D706D2467FBE99F2D8 /* Rect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Rect.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp"; sourceTree = SOURCE_ROOT; };
+		B35B56719DB14DC48FBA0EA9 /* Emitter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Emitter.hpp; path = src/Emitter.hpp; sourceTree = SOURCE_ROOT; };
+		B5131912E32A4FC6A25710A7 /* Window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Window.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Window.cpp"; sourceTree = SOURCE_ROOT; };
+		B5896A9AF08943C3B246C95E /* imgui_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_tables.cpp; path = "build/_deps/imgui-src/imgui_tables.cpp"; sourceTree = SOURCE_ROOT; };
+		B6D3CC42EC6F4550BFF888DE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		BA0271F2437E480DB23D2107 /* MutexImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MutexImpl.cpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/MutexImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		BA64298E70164356833E7DD0 /* SFOpenGLView+mouse.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "SFOpenGLView+mouse.mm"; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView+mouse.mm"; sourceTree = SOURCE_ROOT; };
+		BF1A01D1043D43BEB75155D4 /* ClipboardImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ClipboardImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/ClipboardImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		BF3D562D7BEC40EFAB5BEDBD /* ContextSettings.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ContextSettings.hpp; path = "build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp"; sourceTree = SOURCE_ROOT; };
+		BF3E1F9715624C6EB24067CF /* ImageLoader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ImageLoader.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/ImageLoader.hpp"; sourceTree = SOURCE_ROOT; };
+		BF6BAA1054574723851F3B6C /* RenderTarget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderTarget.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTarget.cpp"; sourceTree = SOURCE_ROOT; };
+		BFC228DDE82B4A6E9EF3B613 /* Sensor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sensor.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Sensor.cpp"; sourceTree = SOURCE_ROOT; };
+		C10E5E2A8565490FB905D16D /* Mutex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Mutex.hpp; path = "build/_deps/sfml-src/include/SFML/System/Mutex.hpp"; sourceTree = SOURCE_ROOT; };
+		C4A76AA4579F4AD7A83ECB1A /* SFOpenGLView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SFOpenGLView.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFOpenGLView.h"; sourceTree = SOURCE_ROOT; };
+		C6839E9DE168419390D8BF70 /* VideoModeImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = VideoModeImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/VideoModeImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		C7DAB87A47DA4156B6784AA5 /* VertexArray.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = VertexArray.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp"; sourceTree = SOURCE_ROOT; };
+		C88FC68F32524656AC3F13AA /* ThreadLocal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadLocal.hpp; path = "build/_deps/sfml-src/include/SFML/System/ThreadLocal.hpp"; sourceTree = SOURCE_ROOT; };
+		C8F82AF37DA6423C99B3FA34 /* Sleep.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sleep.cpp; path = "build/_deps/sfml-src/src/SFML/System/Sleep.cpp"; sourceTree = SOURCE_ROOT; };
+		CC9EC819534742C6A82D69FB /* VertexArray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VertexArray.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/VertexArray.cpp"; sourceTree = SOURCE_ROOT; };
+		CCD6C3B942F140EF8B1D5150 /* cg_sf_conversion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cg_sf_conversion.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/cg_sf_conversion.hpp"; sourceTree = SOURCE_ROOT; };
+		CD9C64A06C1B4D9B9384D474 /* AutoreleasePoolWrapper.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = AutoreleasePoolWrapper.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/AutoreleasePoolWrapper.mm"; sourceTree = SOURCE_ROOT; };
+		CDD27D62A8894DCEBF231A81 /* Color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Color.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Color.cpp"; sourceTree = SOURCE_ROOT; };
+		CE1C1B0100804F538D3B070D /* Vertex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vertex.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp"; sourceTree = SOURCE_ROOT; };
+		CEE3218CDC16434BAD9CC9C8 /* TextureSaver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TextureSaver.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp"; sourceTree = SOURCE_ROOT; };
+		CF815569B3644157AB22484F /* FileInputStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = FileInputStream.hpp; path = "build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp"; sourceTree = SOURCE_ROOT; };
+		CF8C065F0D8845038D48A33E /* VertexBuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = VertexBuffer.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp"; sourceTree = SOURCE_ROOT; };
+		D00D2100E72D4876B0E79BE6 /* RenderTextureImplFBO.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderTextureImplFBO.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp"; sourceTree = SOURCE_ROOT; };
+		D02C97B3572A401BB01FB361 /* GLLoader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GLLoader.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp"; sourceTree = SOURCE_ROOT; };
+		D136FDE26A224AFC957997B6 /* RenderTextureImplDefault.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderTextureImplDefault.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp"; sourceTree = SOURCE_ROOT; };
+		D2C48DB5C2BF44D5AFB676EE /* RectangleShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RectangleShape.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RectangleShape.cpp"; sourceTree = SOURCE_ROOT; };
+		D3C81151C3C34AC1B2C3FA1B /* Particle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Particle.hpp; path = src/Particle.hpp; sourceTree = SOURCE_ROOT; };
+		D538DA5964FC44758E0B2F00 /* Glyph.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Glyph.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp"; sourceTree = SOURCE_ROOT; };
+		D7B3545571044D8C9779D71B /* Lock.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Lock.hpp; path = "build/_deps/sfml-src/include/SFML/System/Lock.hpp"; sourceTree = SOURCE_ROOT; };
+		DABE354A29824259BD66C34C /* Glsl.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Glsl.inl; path = "build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl"; sourceTree = SOURCE_ROOT; };
+		DD0764AB82C64BD59929BC20 /* GLCheck.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GLCheck.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp"; sourceTree = SOURCE_ROOT; };
+		DE9E4396C34F43BB8295574A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "build/_deps/sfml-src/src/SFML/System/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		E072164436694DF6A8FEF673 /* RenderTextureImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderTextureImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		E0842040FCAF4C1B883E4136 /* Lock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lock.cpp; path = "build/_deps/sfml-src/src/SFML/System/Lock.cpp"; sourceTree = SOURCE_ROOT; };
+		E1D5C7E8B34A410788E014CB /* RenderStates.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderStates.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/RenderStates.cpp"; sourceTree = SOURCE_ROOT; };
+		E274E23F99CC4C4483B29278 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2EC22EAA3424C0CB6EAC7D7 /* WindowImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = WindowImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		E313EDC8CC584A778AA02BF8 /* CursorImpl.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CursorImpl.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/CursorImpl.mm"; sourceTree = SOURCE_ROOT; };
+		E33256C3F5ED4F85AF3D0BAF /* ThreadImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ThreadImpl.hpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/ThreadImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		E426517F3E5646478D9B2D01 /* JoystickManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JoystickManager.cpp; path = "build/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp"; sourceTree = SOURCE_ROOT; };
+		E5629A313E7D468DA63D95FD /* cpp_objc_conversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cpp_objc_conversion.h; path = "build/_deps/sfml-src/src/SFML/Window/OSX/cpp_objc_conversion.h"; sourceTree = SOURCE_ROOT; };
+		E691CF35EF154C49A7E301FF /* Cursor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cursor.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Cursor.cpp"; sourceTree = SOURCE_ROOT; };
+		E8CA1B763C42418C9A80F194 /* Mouse.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Mouse.hpp; path = "build/_deps/sfml-src/include/SFML/Window/Mouse.hpp"; sourceTree = SOURCE_ROOT; };
+		E965D92BF9FE4C6F84DBDA65 /* SFViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = SFViewController.mm; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFViewController.mm"; sourceTree = SOURCE_ROOT; };
+		EB08A7DF24E8488786388793 /* Export.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Export.hpp; path = "build/_deps/sfml-src/include/SFML/System/Export.hpp"; sourceTree = SOURCE_ROOT; };
+		EDBF1412DF3241F1AA58242E /* SFSilentResponder.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SFSilentResponder.m; path = "build/_deps/sfml-src/src/SFML/Window/OSX/SFSilentResponder.m"; sourceTree = SOURCE_ROOT; };
+		EDE573CB2C304A498DD89067 /* JoystickManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = JoystickManager.hpp; path = "build/_deps/sfml-src/src/SFML/Window/JoystickManager.hpp"; sourceTree = SOURCE_ROOT; };
+		EEECDA3519D14678A08F38DA /* Touch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Touch.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Touch.cpp"; sourceTree = SOURCE_ROOT; };
+		EF7EFD2915F14569B2D9710F /* CircleShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CircleShape.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/CircleShape.cpp"; sourceTree = SOURCE_ROOT; };
+		F0D2F3F270AE454AA5A82858 /* Transform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Transform.cpp; path = "build/_deps/sfml-src/src/SFML/Graphics/Transform.cpp"; sourceTree = SOURCE_ROOT; };
+		F264E4E818E44B6C81C1DFF3 /* Thread.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Thread.hpp; path = "build/_deps/sfml-src/include/SFML/System/Thread.hpp"; sourceTree = SOURCE_ROOT; };
+		F51079183C01421B8EE4E0DE /* ClockImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ClockImpl.cpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/ClockImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		F6BBA6273FA945F39301502C /* GLExtensions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GLExtensions.hpp; path = "build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp"; sourceTree = SOURCE_ROOT; };
+		F6E8C22BC3904D7CA9BC15D6 /* MutexImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MutexImpl.hpp; path = "build/_deps/sfml-src/src/SFML/System/Unix/MutexImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		F87AA9550B904F3DA3F48BD7 /* JoystickImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = JoystickImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/JoystickImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		F9B3254F70D543FF9277CA47 /* ClipboardImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ClipboardImpl.hpp; path = "build/_deps/sfml-src/src/SFML/Window/OSX/ClipboardImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		FA84A72C29674343907CE29B /* PrimitiveType.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PrimitiveType.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp"; sourceTree = SOURCE_ROOT; };
+		FB473DCB0E684FEC94A7BA67 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FBD59489B3154A1A90ABEF67 /* Mouse.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mouse.cpp; path = "build/_deps/sfml-src/src/SFML/Window/Mouse.cpp"; sourceTree = SOURCE_ROOT; };
+		FDB91EBFBD4B47F7A94394C1 /* RenderTexture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RenderTexture.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp"; sourceTree = SOURCE_ROOT; };
+		FE0331A4D96C405A9A826EC9 /* Shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shader.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Shader.hpp"; sourceTree = SOURCE_ROOT; };
+		FF8FC3442E8D4235BF98A2A8 /* Shape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shape.hpp; path = "build/_deps/sfml-src/include/SFML/Graphics/Shape.hpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9626B64AFC4EB1A33C20F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B22F884AAA48ED89E55D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E40B29267E48019436624F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FE681F9905471D9B24EA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADEAF61F55549B68F697C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001D1EF2B6BF4B10A54A5DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1E807AE1574586855AC4EF /* libImGui-SFML_d.dylib */,
+				41AE9E5A2B0548CF96BEA203 /* pipo */,
+				554CDC167838442EA5F859E0 /* libsfml-graphics-d.2.5.1.dylib */,
+				1A52F18F9656440B9CA55F4A /* libsfml-system-d.2.5.1.dylib */,
+				9D83B920A2F7463BBF52F53E /* libsfml-window-d.2.5.1.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1201FB4CE76C44208291D85D /* SFML */ = {
+			isa = PBXGroup;
+			children = (
+				C9DBC75D8BAC4994A861210D /* sfml-system */,
+				DC458D979AFB493892F1CCBF /* sfml-window */,
+				E4486EF2D6CC4235AA0D6417 /* sfml-graphics */,
+			);
+			name = SFML;
+			sourceTree = "<group>";
+		};
+		19FABA6EB3E941288BC7C5EE /* ImGui-SFML */ = {
+			isa = PBXGroup;
+			children = (
+				1B76F4211DA8497E887EB181 /* Source Files */,
+				AA48FFF52A5E436B91158801 /* CMakeLists.txt */,
+			);
+			name = "ImGui-SFML";
+			sourceTree = "<group>";
+		};
+		1B76F4211DA8497E887EB181 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C56F038A5B44DB295B12A37 /* imgui-SFML.cpp */,
+				45E3F95BF51B4B199836F85D /* imgui.cpp */,
+				5DA7529982854716AC24E491 /* imgui_demo.cpp */,
+				48F78CAAED47452CB73734B3 /* imgui_draw.cpp */,
+				B5896A9AF08943C3B246C95E /* imgui_tables.cpp */,
+				76EAACF8844949029B47E656 /* imgui_widgets.cpp */,
+				69FE511C635F409B8120A4B3 /* imgui_stdlib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1F49A51EB0874C2CB957A89D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		268BB1DE42B54DB0B2A8B5DA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B35B56719DB14DC48FBA0EA9 /* Emitter.hpp */,
+				544BA2213FBA4742931869BB /* ObjectPool.hpp */,
+				D3C81151C3C34AC1B2C3FA1B /* Particle.hpp */,
+				0A547651C8434EB6993F5426 /* PhysicsComponent.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4B479BAF23FD41D6A55A6B02 /* pipo */ = {
+			isa = PBXGroup;
+			children = (
+				A0F85A86BC244CB8BD53B9D4 /* Source Files */,
+				268BB1DE42B54DB0B2A8B5DA /* Header Files */,
+				E274E23F99CC4C4483B29278 /* CMakeLists.txt */,
+			);
+			name = pipo;
+			sourceTree = "<group>";
+		};
+		7AB316886C574645A86B34B2 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				3FDA04182B5B43179AA99485 /* AutoreleasePoolWrapper.h */,
+				CD9C64A06C1B4D9B9384D474 /* AutoreleasePoolWrapper.mm */,
+				F9B3254F70D543FF9277CA47 /* ClipboardImpl.hpp */,
+				4A447AE0A0894E068F4B6090 /* ClipboardImpl.mm */,
+				372D018C4F454F318B0E45BB /* CursorImpl.hpp */,
+				E313EDC8CC584A778AA02BF8 /* CursorImpl.mm */,
+				3C47EF67BEC64CA5B8E14EC5 /* HIDInputManager.hpp */,
+				89BB93164BCB4FE29AD1049C /* HIDInputManager.mm */,
+				1FBDEC09AE2240F08A5F3CD9 /* HIDJoystickManager.cpp */,
+				7A65862391C54B44A3ACB1B4 /* HIDJoystickManager.hpp */,
+				94D7082C96774704A416B610 /* InputImpl.hpp */,
+				6D48A5DBE6BD4C82968B5D98 /* InputImpl.mm */,
+				1C65420DD6CC4ECCBC5700BE /* JoystickImpl.cpp */,
+				F87AA9550B904F3DA3F48BD7 /* JoystickImpl.hpp */,
+				237FE6BB02EA41238CABAD41 /* NSImage+raw.h */,
+				5780CA1B167742D483819CE7 /* NSImage+raw.mm */,
+				7F6926102F5C48AA98CABE13 /* SFApplication.h */,
+				1CABA37D408D4FC4BAC430AC /* SFApplication.m */,
+				08304BC1F00C49CE931689E8 /* SFApplicationDelegate.h */,
+				8E63597E1CF04FCFA931A127 /* SFApplicationDelegate.m */,
+				229C147FFC364EEA98926635 /* SFContext.hpp */,
+				1E6A1C40E6954D1597D284A0 /* SFContext.mm */,
+				217860E803C246E089BE4D84 /* SFKeyboardModifiersHelper.h */,
+				77A984E636B04B9AB398A90F /* SFKeyboardModifiersHelper.mm */,
+				92D7F755DD324864A7E2F43F /* SFOpenGLView+keyboard.mm */,
+				47D6F87B6F7C4506BC9F3191 /* SFOpenGLView+keyboard_priv.h */,
+				BA64298E70164356833E7DD0 /* SFOpenGLView+mouse.mm */,
+				161C55E3B7B94F0AAA607A73 /* SFOpenGLView+mouse_priv.h */,
+				C4A76AA4579F4AD7A83ECB1A /* SFOpenGLView.h */,
+				30AB89D4136B44188A5F9E03 /* SFOpenGLView.mm */,
+				3E1B84452D234242848407FD /* SFSilentResponder.h */,
+				EDBF1412DF3241F1AA58242E /* SFSilentResponder.m */,
+				8945B294C873443CB9D89DE0 /* SFViewController.h */,
+				E965D92BF9FE4C6F84DBDA65 /* SFViewController.mm */,
+				678CB64DC49B4D21B8BACCCA /* SFWindow.h */,
+				288717B9C92749849EA2C02B /* SFWindow.m */,
+				88FBF7DB0DCC46C3AF55F353 /* SFWindowController.h */,
+				922ED976019945F0B6A1E38E /* SFWindowController.mm */,
+				A0E3B5C4DD3B481D959110B5 /* Scaling.h */,
+				7C1F0FD09DB6405BA09FF835 /* SensorImpl.cpp */,
+				9F7899C471684452AA82A1DA /* SensorImpl.hpp */,
+				A7D2A29A1CDB4EF899B80141 /* VideoModeImpl.cpp */,
+				AC5BC3866D834661965E9B4E /* WindowImplCocoa.hpp */,
+				795D4B4B2EFF41FB995BBD24 /* WindowImplCocoa.mm */,
+				5F41ED1AFF3C459AA2A237F2 /* WindowImplDelegateProtocol.h */,
+				CCD6C3B942F140EF8B1D5150 /* cg_sf_conversion.hpp */,
+				580A9A90265B4BE480060AD5 /* cg_sf_conversion.mm */,
+				E5629A313E7D468DA63D95FD /* cpp_objc_conversion.h */,
+				01EBAC45AF984639B3E124C0 /* cpp_objc_conversion.mm */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		897DFA6CE62642DFA00FB6CA /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				F51079183C01421B8EE4E0DE /* ClockImpl.cpp */,
+				1F8F3BB946B5410E8D942A99 /* ClockImpl.hpp */,
+				BA0271F2437E480DB23D2107 /* MutexImpl.cpp */,
+				F6E8C22BC3904D7CA9BC15D6 /* MutexImpl.hpp */,
+				5376CEF67EB54F0FACCF4907 /* SleepImpl.cpp */,
+				7AFC496104FE4F5E9ED234D6 /* SleepImpl.hpp */,
+				7BA297A6E07344159D465188 /* ThreadImpl.cpp */,
+				E33256C3F5ED4F85AF3D0BAF /* ThreadImpl.hpp */,
+				5763629D806943F884B2D8A4 /* ThreadLocalImpl.cpp */,
+				16B71F61B7CD4CF7BF4A04AD /* ThreadLocalImpl.hpp */,
+			);
+			name = unix;
+			sourceTree = "<group>";
+		};
+		A0F85A86BC244CB8BD53B9D4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				03334089285B4EFAAA71E48E /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A7DAAEFF56BE4AC8B4630482 /* drawables */ = {
+			isa = PBXGroup;
+			children = (
+				7C16653674C04632B887E124 /* CircleShape.hpp */,
+				6AA374F6E20F446E895A8F92 /* ConvexShape.hpp */,
+				AF0222D3C6034337BE4A05D1 /* Drawable.hpp */,
+				59ACBA1E43084AE99E7F055A /* RectangleShape.hpp */,
+				FF8FC3442E8D4235BF98A2A8 /* Shape.hpp */,
+				2F4EFEC74E3D4E1CAF76FCC5 /* Sprite.hpp */,
+				A16B68C548294486964581B0 /* Text.hpp */,
+				C7DAB87A47DA4156B6784AA5 /* VertexArray.hpp */,
+				CF8C065F0D8845038D48A33E /* VertexBuffer.hpp */,
+				EF7EFD2915F14569B2D9710F /* CircleShape.cpp */,
+				8629BBBAD06A4BE599DBE9D1 /* ConvexShape.cpp */,
+				D2C48DB5C2BF44D5AFB676EE /* RectangleShape.cpp */,
+				2AE7F63B0B064989ABE3C375 /* Shape.cpp */,
+				1D56B18A736C4018A3786AFB /* Sprite.cpp */,
+				A4BA8044DA094749A45F1D50 /* Text.cpp */,
+				CC9EC819534742C6A82D69FB /* VertexArray.cpp */,
+				27A43E1A27DC468DBB1994EA /* VertexBuffer.cpp */,
+			);
+			name = drawables;
+			sourceTree = "<group>";
+		};
+		B1834695C7EE4BE890CE8C3E = {
+			isa = PBXGroup;
+			children = (
+				C2663B88B2374A6A9069C939 /* ALL_BUILD */,
+				1201FB4CE76C44208291D85D /* SFML */,
+				19FABA6EB3E941288BC7C5EE /* ImGui-SFML */,
+				4B479BAF23FD41D6A55A6B02 /* pipo */,
+				001D1EF2B6BF4B10A54A5DFE /* Products */,
+				F5C3807BB2244F00B8380F22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2663B88B2374A6A9069C939 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1F49A51EB0874C2CB957A89D /* CMake Rules */,
+				FB473DCB0E684FEC94A7BA67 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C9DBC75D8BAC4994A861210D /* sfml-system */ = {
+			isa = PBXGroup;
+			children = (
+				897DFA6CE62642DFA00FB6CA /* unix */,
+				46549C964DE845B1A2B3BC61 /* Clock.hpp */,
+				623C4CA3191B49BFBEE8BCFD /* Err.hpp */,
+				EB08A7DF24E8488786388793 /* Export.hpp */,
+				CF815569B3644157AB22484F /* FileInputStream.hpp */,
+				2BF5A8E61130402488EBAF0E /* InputStream.hpp */,
+				D7B3545571044D8C9779D71B /* Lock.hpp */,
+				11E9D7CE0A22402EA136DDD7 /* MemoryInputStream.hpp */,
+				C10E5E2A8565490FB905D16D /* Mutex.hpp */,
+				8F83AA410E8548309F40DA59 /* NativeActivity.hpp */,
+				9481892198824BC48A7D8FF6 /* NonCopyable.hpp */,
+				22DCA78F70CB47119774E923 /* Sleep.hpp */,
+				20C1DB06C0BE4A30A23D160E /* String.hpp */,
+				536935ED87DE425C8D18E6D7 /* String.inl */,
+				F264E4E818E44B6C81C1DFF3 /* Thread.hpp */,
+				7FEB5A36BEE44C6ABFB132A4 /* Thread.inl */,
+				C88FC68F32524656AC3F13AA /* ThreadLocal.hpp */,
+				20B9FBA4094742E28F531A44 /* ThreadLocalPtr.hpp */,
+				AF7DF7D6FADD48979CF47FE5 /* ThreadLocalPtr.inl */,
+				AA2A5923BA244CAA864D4097 /* Time.hpp */,
+				01B28453F8F64FD3915403D6 /* Utf.hpp */,
+				56D688B4CF7C4FCF9011BE90 /* Utf.inl */,
+				4DF46793D8DB4072866BDA50 /* Vector2.hpp */,
+				50030DF0580B4864B3CBB7B0 /* Vector2.inl */,
+				A6A09E45D68449398EEDA350 /* Vector3.hpp */,
+				AB01C260F15B4B1E83ACB3A4 /* Vector3.inl */,
+				DE9E4396C34F43BB8295574A /* CMakeLists.txt */,
+				B0DDDB3F9338405CA89D5060 /* Clock.cpp */,
+				6799C6D59E2440CFAA0FF428 /* Err.cpp */,
+				75AF90AC89F94E9FB1D76F96 /* FileInputStream.cpp */,
+				E0842040FCAF4C1B883E4136 /* Lock.cpp */,
+				1F458403D72D40ECABD9FFBA /* MemoryInputStream.cpp */,
+				63BB26E32E8C4A1E9BA488EA /* Mutex.cpp */,
+				C8F82AF37DA6423C99B3FA34 /* Sleep.cpp */,
+				3BCB1564E8FC4835BC38A0EE /* String.cpp */,
+				77FBAA6D191E4507AB144194 /* Thread.cpp */,
+				7784B98EBCAB4C7DA7552696 /* ThreadLocal.cpp */,
+				70F8F5CB2A814A4D9E67E9C0 /* Time.cpp */,
+			);
+			name = "sfml-system";
+			sourceTree = "<group>";
+		};
+		DC458D979AFB493892F1CCBF /* sfml-window */ = {
+			isa = PBXGroup;
+			children = (
+				7AB316886C574645A86B34B2 /* mac */,
+				817036D57DC040DB9796669D /* Clipboard.hpp */,
+				7736457311474BD290445A2A /* Context.hpp */,
+				BF3D562D7BEC40EFAB5BEDBD /* ContextSettings.hpp */,
+				4E05C658BE2A4E9C8FA3DCA1 /* Cursor.hpp */,
+				6CE0C3065A1142CDBBE8CBBC /* Event.hpp */,
+				6EA500AE76E24FCA94FF1228 /* Export.hpp */,
+				80411E0FF63E4EF3B255C483 /* GlResource.hpp */,
+				A61D429A6DCD43E783F3F6F9 /* Joystick.hpp */,
+				95D20C6888A64E05A2DF33A7 /* Keyboard.hpp */,
+				E8CA1B763C42418C9A80F194 /* Mouse.hpp */,
+				7F0BC98904AD459984ADD046 /* Sensor.hpp */,
+				A13284A84DAA4D35BDA0E496 /* Touch.hpp */,
+				38093D6E17014449A43539EE /* VideoMode.hpp */,
+				7D1E8E5A501346C79EE33C74 /* Window.hpp */,
+				3B2C6F71A6B64F11870B9B1C /* WindowHandle.hpp */,
+				068982DA09564BCFA411598A /* WindowStyle.hpp */,
+				B6D3CC42EC6F4550BFF888DE /* CMakeLists.txt */,
+				8CEE1C4A9C5F4CA794AE6412 /* Clipboard.cpp */,
+				BF1A01D1043D43BEB75155D4 /* ClipboardImpl.hpp */,
+				18F2AD8811DB45D9AD2925F8 /* Context.cpp */,
+				E691CF35EF154C49A7E301FF /* Cursor.cpp */,
+				A0BF63BF6AD04CD8B51F3FF8 /* CursorImpl.hpp */,
+				840591DB435149DCBCA1D8AE /* GlContext.cpp */,
+				8BBEB97356C04953A573B985 /* GlContext.hpp */,
+				300995D3D5D54C77BB73842D /* GlResource.cpp */,
+				0115F58DEE794583AE2091BA /* InputImpl.hpp */,
+				6D6C8B9E68BB403A910EB2A0 /* Joystick.cpp */,
+				ACF6FF86207A49709C10CB35 /* JoystickImpl.hpp */,
+				E426517F3E5646478D9B2D01 /* JoystickManager.cpp */,
+				EDE573CB2C304A498DD89067 /* JoystickManager.hpp */,
+				A2F1F6B8515A41BBB5D6BDC0 /* Keyboard.cpp */,
+				FBD59489B3154A1A90ABEF67 /* Mouse.cpp */,
+				BFC228DDE82B4A6E9EF3B613 /* Sensor.cpp */,
+				15E1D9718709468DA0747CBC /* SensorImpl.hpp */,
+				A507144EFAE9417696C8D346 /* SensorManager.cpp */,
+				76BC0B2BC8CA4CEA98417E75 /* SensorManager.hpp */,
+				EEECDA3519D14678A08F38DA /* Touch.cpp */,
+				995D457E3BDE43DFB9034768 /* VideoMode.cpp */,
+				C6839E9DE168419390D8BF70 /* VideoModeImpl.hpp */,
+				B5131912E32A4FC6A25710A7 /* Window.cpp */,
+				8101FFDE7E0E46699CAD71C3 /* WindowImpl.cpp */,
+				E2EC22EAA3424C0CB6EAC7D7 /* WindowImpl.hpp */,
+			);
+			name = "sfml-window";
+			sourceTree = "<group>";
+		};
+		E3DF6E3FBF664A5CA16FF206 /* render texture */ = {
+			isa = PBXGroup;
+			children = (
+				2F8229EF5EDB4F62903595F2 /* RenderTextureImpl.cpp */,
+				E072164436694DF6A8FEF673 /* RenderTextureImpl.hpp */,
+				0D6BFFB2084B4FC6B447504F /* RenderTextureImplDefault.cpp */,
+				D136FDE26A224AFC957997B6 /* RenderTextureImplDefault.hpp */,
+				2AE50FA812E144A78FC58C72 /* RenderTextureImplFBO.cpp */,
+				D00D2100E72D4876B0E79BE6 /* RenderTextureImplFBO.hpp */,
+			);
+			name = "render texture";
+			sourceTree = "<group>";
+		};
+		E4486EF2D6CC4235AA0D6417 /* sfml-graphics */ = {
+			isa = PBXGroup;
+			children = (
+				A7DAAEFF56BE4AC8B4630482 /* drawables */,
+				E3DF6E3FBF664A5CA16FF206 /* render texture */,
+				7BB1330C4717485593540C99 /* BlendMode.hpp */,
+				8BC5FE67E7054D57872488D1 /* Color.hpp */,
+				5EF49B95D270415E91FC49ED /* Export.hpp */,
+				1A54145A2F5E4DDD8CFD1D2D /* Font.hpp */,
+				9C170087CEF64EEEA6C84647 /* Glsl.hpp */,
+				DABE354A29824259BD66C34C /* Glsl.inl */,
+				D538DA5964FC44758E0B2F00 /* Glyph.hpp */,
+				925B322F1612481AA058CC1F /* Image.hpp */,
+				FA84A72C29674343907CE29B /* PrimitiveType.hpp */,
+				B10A75D706D2467FBE99F2D8 /* Rect.hpp */,
+				516DA889951B4475B819053A /* Rect.inl */,
+				890F8CCDB81F4CC68567286F /* RenderStates.hpp */,
+				2BD3CF4F410941F4A420468F /* RenderTarget.hpp */,
+				FDB91EBFBD4B47F7A94394C1 /* RenderTexture.hpp */,
+				9E8E552A92704741922883D6 /* RenderWindow.hpp */,
+				FE0331A4D96C405A9A826EC9 /* Shader.hpp */,
+				756A275E29F046B2BE6615E6 /* Texture.hpp */,
+				70D0D18C89644EFEB67D29A8 /* Transform.hpp */,
+				582CA7C7D9F54D458F82FF86 /* Transformable.hpp */,
+				CE1C1B0100804F538D3B070D /* Vertex.hpp */,
+				9450A72A2016432FA2DC9E6B /* View.hpp */,
+				8367645E84574409AEF4E90A /* BlendMode.cpp */,
+				1EA1C31B50BE431C8942D53D /* CMakeLists.txt */,
+				CDD27D62A8894DCEBF231A81 /* Color.cpp */,
+				8119785271524121B7D8EC3C /* Font.cpp */,
+				35A2D7F0599B425290E7F085 /* GLCheck.cpp */,
+				DD0764AB82C64BD59929BC20 /* GLCheck.hpp */,
+				815285A99ED443AEA3CCF9DB /* GLExtensions.cpp */,
+				F6BBA6273FA945F39301502C /* GLExtensions.hpp */,
+				84A43C9798884601A3949173 /* GLLoader.cpp */,
+				D02C97B3572A401BB01FB361 /* GLLoader.hpp */,
+				2C4A6BC9D5CC426F825B01B4 /* Glsl.cpp */,
+				0FF0FBE63D004DC2AF8FD3A5 /* Image.cpp */,
+				9BA10B4199BD48898F38354E /* ImageLoader.cpp */,
+				BF3E1F9715624C6EB24067CF /* ImageLoader.hpp */,
+				E1D5C7E8B34A410788E014CB /* RenderStates.cpp */,
+				BF6BAA1054574723851F3B6C /* RenderTarget.cpp */,
+				4AC2AC7D6F314C47A1FBD36C /* RenderTexture.cpp */,
+				75707B0D38F54971A6BAB8C7 /* RenderWindow.cpp */,
+				3BEF5324A27E4F8993085075 /* Shader.cpp */,
+				3957A8462DFB4798A71D34CC /* Texture.cpp */,
+				3EE21174FCD144769F1BBF6F /* TextureSaver.cpp */,
+				CEE3218CDC16434BAD9CC9C8 /* TextureSaver.hpp */,
+				F0D2F3F270AE454AA5A82858 /* Transform.cpp */,
+				83B0252B65674A57954C965C /* Transformable.cpp */,
+				5BF96A0EEA0D40F19147D085 /* Vertex.cpp */,
+				32475BA820704AB19579E55B /* View.cpp */,
+			);
+			name = "sfml-graphics";
+			sourceTree = "<group>";
+		};
+		F5C3807BB2244F00B8380F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A21D2E65784164B84C2456 /* OpenGL.framework */,
+				5BE01F2759BE4042AF7B12DF /* freetype.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0086066FF2EA452DA128389A /* sfml-graphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FEA258AC314A73ADA18583 /* Build configuration list for PBXNativeTarget "sfml-graphics" */;
+			buildPhases = (
+				7184DD0636E14277AC74A9C3 /* Sources */,
+				0A9626B64AFC4EB1A33C20F0 /* Frameworks */,
+				9B7F5703B209CE038011CB30 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3984F484D9846BFBB1BB4BF /* PBXTargetDependency */,
+				3ACC01DBBB1649EE899FE119 /* PBXTargetDependency */,
+				8ED3E8A6FA8049C8A343E47D /* PBXTargetDependency */,
+			);
+			name = "sfml-graphics";
+			productName = "sfml-graphics";
+			productReference = 554CDC167838442EA5F859E0 /* libsfml-graphics-d.2.5.1.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		062F227431F44441812B4F05 /* ImGui-SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E73CA15114349F982E3B144 /* Build configuration list for PBXNativeTarget "ImGui-SFML" */;
+			buildPhases = (
+				9E64A17486FF441CAC6E7BD4 /* Sources */,
+				9ADEAF61F55549B68F697C47 /* Frameworks */,
+				45EFD590540B73B920429E25 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24AB1F906A747DEB3C2DCA1 /* PBXTargetDependency */,
+				B1DAFD447DB3464C98EEF2ED /* PBXTargetDependency */,
+				ED7E7E4953B84AC79337D138 /* PBXTargetDependency */,
+			);
+			name = "ImGui-SFML";
+			productName = "ImGui-SFML";
+			productReference = 6B1E807AE1574586855AC4EF /* libImGui-SFML_d.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6C84C2327773444BBC0B1C24 /* sfml-system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4A3308E197488D9186A8A6 /* Build configuration list for PBXNativeTarget "sfml-system" */;
+			buildPhases = (
+				3C022B3C9E1A44C184D13911 /* Sources */,
+				53B22F884AAA48ED89E55D5B /* Frameworks */,
+				968BE1DCA7A9CE1F428C8323 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BFA7AB8B1E42E8A3DD4270 /* PBXTargetDependency */,
+			);
+			name = "sfml-system";
+			productName = "sfml-system";
+			productReference = 1A52F18F9656440B9CA55F4A /* libsfml-system-d.2.5.1.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		8CC7FBB2DD9240D29F4F3025 /* pipo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F088E15A8B434A8784A7B2C0 /* Build configuration list for PBXNativeTarget "pipo" */;
+			buildPhases = (
+				0AE32F61C4114AB0BC032179 /* Sources */,
+				71FE681F9905471D9B24EA92 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28EFBBC51174E4C9AF6C592 /* PBXTargetDependency */,
+				BB7C957520364270B6707BA4 /* PBXTargetDependency */,
+				448D6B5ABD094A8A987C2F4F /* PBXTargetDependency */,
+				6B1895C7BC73442B94EFB289 /* PBXTargetDependency */,
+				EA9CFDDB0930417E808DB155 /* PBXTargetDependency */,
+			);
+			name = pipo;
+			productName = pipo;
+			productReference = 41AE9E5A2B0548CF96BEA203 /* pipo */;
+			productType = "com.apple.product-type.tool";
+		};
+		FB53D44A04E64951A50D879D /* sfml-window */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D32BDF8B114C86A0A39E67 /* Build configuration list for PBXNativeTarget "sfml-window" */;
+			buildPhases = (
+				E97248DD5AC641FAA657EFC6 /* Sources */,
+				70E40B29267E48019436624F /* Frameworks */,
+				889599C96A9428744B742170 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180D204FC5914491BC2F4522 /* PBXTargetDependency */,
+				BB472D6D2A2A48818F6D40D9 /* PBXTargetDependency */,
+			);
+			name = "sfml-window";
+			productName = "sfml-window";
+			productReference = 9D83B920A2F7463BBF52F53E /* libsfml-window-d.2.5.1.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580C24375CEE4529BD918915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1410;
+			};
+			buildConfigurationList = 71CE57165C3F443D9F36DB12 /* Build configuration list for PBXProject "pipo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1834695C7EE4BE890CE8C3E;
+			projectDirPath = /Users/alex_frasca/Documents/pipo;
+			projectRoot = "";
+			targets = (
+				D0C0E4DDE8854A9B84FE63DC /* ALL_BUILD */,
+				062F227431F44441812B4F05 /* ImGui-SFML */,
+				DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */,
+				1D8710C2DECA48D3B1361A25 /* install */,
+				8CC7FBB2DD9240D29F4F3025 /* pipo */,
+				0086066FF2EA452DA128389A /* sfml-graphics */,
+				6C84C2327773444BBC0B1C24 /* sfml-system */,
+				FB53D44A04E64951A50D879D /* sfml-window */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42EF0A2CEE288FEC762A397C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				/Users/alex_frasca/Documents/pipo/build/CMakeFiles/ZERO_CHECK,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  make -f /Users/alex_frasca/Documents/pipo/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  make -f /Users/alex_frasca/Documents/pipo/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  make -f /Users/alex_frasca/Documents/pipo/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  make -f /Users/alex_frasca/Documents/pipo/build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45EFD590540B73B920429E25 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		655246F841A458915BB7711A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/alex_frasca/Documents/pipo/build/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		889599C96A9428744B742170 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Window\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Window\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Window\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Window\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build\n  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		968BE1DCA7A9CE1F428C8323 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/System\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/System\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/System\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/System\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7F5703B209CE038011CB30 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Graphics\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-graphics-d.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-graphics-d.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-graphics-d.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Graphics\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-graphics.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-graphics.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-graphics.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Graphics\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-graphics.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-graphics.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-graphics.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/src/SFML/Graphics\n  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-graphics.2.5.1.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-graphics.2.5.dylib /Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-graphics.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE32F61C4114AB0BC032179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CDFDDFC7E54041BC760CE8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C022B3C9E1A44C184D13911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03B010FDF024F14BBEE800E /* Clock.cpp in Sources */,
+				F706A2008EAE4C819E30E898 /* Err.cpp in Sources */,
+				E968D2F7BA034F008BCAAFA5 /* FileInputStream.cpp in Sources */,
+				E98D25FFAAE1427AA15E4E8F /* Lock.cpp in Sources */,
+				B2CAE860253048D89EA4C86C /* MemoryInputStream.cpp in Sources */,
+				906C7790F632404397082B51 /* Mutex.cpp in Sources */,
+				9150016846394530BBD7F294 /* Sleep.cpp in Sources */,
+				E27D8E3D192449F6B4B28780 /* String.cpp in Sources */,
+				99DDBBF11B2A49C587250EAB /* Thread.cpp in Sources */,
+				D956195AB5E04E19B9A291FB /* ThreadLocal.cpp in Sources */,
+				7B489990B3154A0F93AF4565 /* Time.cpp in Sources */,
+				04A817577AC44378B19C1435 /* ClockImpl.cpp in Sources */,
+				4DC93BD5EC804EEDB5CB28DB /* MutexImpl.cpp in Sources */,
+				4C55D0FD044148ACAB8CDDFB /* SleepImpl.cpp in Sources */,
+				CCCE997DE1614F3ABFE4AF74 /* ThreadImpl.cpp in Sources */,
+				F588833F282B4F0E9717DBEE /* ThreadLocalImpl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7184DD0636E14277AC74A9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82E049A14094B2695A9501D /* BlendMode.cpp in Sources */,
+				D5B8CE19BB1748449B64D426 /* CircleShape.cpp in Sources */,
+				B70EA95D912F4447947BFA95 /* Color.cpp in Sources */,
+				BDC275E128B94FEFBE2F44A4 /* ConvexShape.cpp in Sources */,
+				7F3DA2D440A24E9D871BCDCB /* Font.cpp in Sources */,
+				C7FC36BF0A65453FA484514B /* GLCheck.cpp in Sources */,
+				CA3A66C0095B4C66B6A74CED /* GLExtensions.cpp in Sources */,
+				F430A22FA3BB4C4F8B9BEFE9 /* GLLoader.cpp in Sources */,
+				F3D86219D68D4EA59C3D4B41 /* Glsl.cpp in Sources */,
+				F957B5CCACAE47D29621E1CF /* Image.cpp in Sources */,
+				F2A0A86247EB4A18A62FA062 /* ImageLoader.cpp in Sources */,
+				99BE97D73E664A2EB504F1D4 /* RectangleShape.cpp in Sources */,
+				3919F01B6D1849CA85D8507D /* RenderStates.cpp in Sources */,
+				6DE77E329FB14404A2DC98CD /* RenderTarget.cpp in Sources */,
+				EF3E11B1A3E74A04BD5C15D1 /* RenderTexture.cpp in Sources */,
+				D349E776A84247828609C60F /* RenderTextureImpl.cpp in Sources */,
+				CBEFB77C434E426C85021EE8 /* RenderTextureImplDefault.cpp in Sources */,
+				1E0F7A07E4E6491F9A1D569D /* RenderTextureImplFBO.cpp in Sources */,
+				06CAB69823C44EAA8CF13CC1 /* RenderWindow.cpp in Sources */,
+				A06C2688BFC14C548390497F /* Shader.cpp in Sources */,
+				C89A88BD617C4449B431D8AC /* Shape.cpp in Sources */,
+				6C1CB40D88A6467AAB344A34 /* Sprite.cpp in Sources */,
+				9CB2E8A7A9304EC3AD83914A /* Text.cpp in Sources */,
+				BABBFE89C4F6491D85686283 /* Texture.cpp in Sources */,
+				3B2AC5AAA81A45F6921839E4 /* TextureSaver.cpp in Sources */,
+				80608E6304E64F4FA843592F /* Transform.cpp in Sources */,
+				3C567148AFBA45E382A425D1 /* Transformable.cpp in Sources */,
+				A73A9C936D704654B1974BE4 /* Vertex.cpp in Sources */,
+				E28AF967CE3D4D5D83A2AC24 /* VertexArray.cpp in Sources */,
+				7038D62A7E9A411C8F7BCC59 /* VertexBuffer.cpp in Sources */,
+				62AE587289F54501ABE5E8A8 /* View.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E64A17486FF441CAC6E7BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375678A21C3C408996357121 /* imgui-SFML.cpp in Sources */,
+				B0627351F8E04807A2DA5383 /* imgui.cpp in Sources */,
+				71A0F081D67E425E81E8A561 /* imgui_demo.cpp in Sources */,
+				10E1A240E13D407FB8026C9A /* imgui_draw.cpp in Sources */,
+				3A9ADEE6E8FA4804B9E332C1 /* imgui_tables.cpp in Sources */,
+				D4FEB038423047369D61AC17 /* imgui_widgets.cpp in Sources */,
+				1C297E644CEE4E4885E24308 /* imgui_stdlib.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97248DD5AC641FAA657EFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFECC1E5993345B2A485002F /* Clipboard.cpp in Sources */,
+				CF5FC6ED7A884E499BFB0F13 /* Context.cpp in Sources */,
+				FC0CB14460724FEF8137D4FA /* Cursor.cpp in Sources */,
+				E902CF34C4A145B4A78D9DA1 /* GlContext.cpp in Sources */,
+				5E076CC9D2E94BA1858EA197 /* GlResource.cpp in Sources */,
+				AF77AA891C5A463992526F7E /* Joystick.cpp in Sources */,
+				CF7F2105CF894DBFAAA77BE0 /* JoystickManager.cpp in Sources */,
+				DA34C65C321B4C71BB0C76F8 /* Keyboard.cpp in Sources */,
+				B61A25CA4D474622BE9F59FE /* Mouse.cpp in Sources */,
+				19717BABE57A4FE4922AAB71 /* AutoreleasePoolWrapper.mm in Sources */,
+				EFD42DE8196242BBB246C6E7 /* ClipboardImpl.mm in Sources */,
+				5B2FEF91DF554C0A939D0189 /* CursorImpl.mm in Sources */,
+				D613AB3958FB4C81A2442FAC /* HIDInputManager.mm in Sources */,
+				DF787267CD634F5788C5B675 /* HIDJoystickManager.cpp in Sources */,
+				07B420F4E56A48AF8839BBE6 /* InputImpl.mm in Sources */,
+				268FCBEF651641DC83EA218D /* JoystickImpl.cpp in Sources */,
+				55DB0E8DDF594A2FA5AEBDCA /* NSImage+raw.mm in Sources */,
+				1937027D94DE453FBB162F44 /* SFApplication.m in Sources */,
+				704C008BAB5149BCB3552F3E /* SFApplicationDelegate.m in Sources */,
+				C322F1B7ED27401CB20260B1 /* SFContext.mm in Sources */,
+				D4981E90B57344C8BB838854 /* SFKeyboardModifiersHelper.mm in Sources */,
+				B5A5BEF6E8E54E01AE853CCC /* SFOpenGLView+keyboard.mm in Sources */,
+				30322609CD1342C095348A4C /* SFOpenGLView+mouse.mm in Sources */,
+				F7520CEA9A15484AA7FAFDBA /* SFOpenGLView.mm in Sources */,
+				3603CBB54EB045DD89871B56 /* SFSilentResponder.m in Sources */,
+				2314A3CA33BD443880AA19B7 /* SFViewController.mm in Sources */,
+				88CF5F9438164FB2A5443C81 /* SFWindow.m in Sources */,
+				1C75C75C63534B038979CB1F /* SFWindowController.mm in Sources */,
+				D313E3B4351D44939BD3F0A3 /* SensorImpl.cpp in Sources */,
+				61D39C01C1B1402282AD29AC /* VideoModeImpl.cpp in Sources */,
+				1301A3EE639E4FB6915FBC75 /* WindowImplCocoa.mm in Sources */,
+				0513332FD14D4556B4A7E9A8 /* cg_sf_conversion.mm in Sources */,
+				D82592871C3C40E08CB2E2B7 /* cpp_objc_conversion.mm in Sources */,
+				78CCF807235A48C18C13B41A /* Sensor.cpp in Sources */,
+				0BF7B68B7ECC4D67935752E9 /* SensorManager.cpp in Sources */,
+				1A914B970B5A4C7A9EBBC622 /* Touch.cpp in Sources */,
+				4DFC112E7CE647D99BFE013D /* VideoMode.cpp in Sources */,
+				00307C182150477E9464DDE5 /* Window.cpp in Sources */,
+				E7CC62528F3844DBAFB13362 /* WindowImpl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C58A9EEC544F82981BCE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84C2327773444BBC0B1C24 /* sfml-system */;
+			targetProxy = 3AF4839E6B7B42138EFBAE86 /* PBXContainerItemProxy */;
+		};
+		180D204FC5914491BC2F4522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = E4D23A311446456B811679C6 /* PBXContainerItemProxy */;
+		};
+		260469DB50DE4EB384249371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0086066FF2EA452DA128389A /* sfml-graphics */;
+			targetProxy = 7256B2486A794BF3B3B6E375 /* PBXContainerItemProxy */;
+		};
+		3ACC01DBBB1649EE899FE119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84C2327773444BBC0B1C24 /* sfml-system */;
+			targetProxy = 520EEF3675C6486B8440699F /* PBXContainerItemProxy */;
+		};
+		448D6B5ABD094A8A987C2F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB53D44A04E64951A50D879D /* sfml-window */;
+			targetProxy = 65A20BD312C74E1E9CD46A63 /* PBXContainerItemProxy */;
+		};
+		6B1895C7BC73442B94EFB289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0086066FF2EA452DA128389A /* sfml-graphics */;
+			targetProxy = 0FF5F6E3D2AE4CABAD61E0C1 /* PBXContainerItemProxy */;
+		};
+		79041A3E1815477DBD9374FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB53D44A04E64951A50D879D /* sfml-window */;
+			targetProxy = A3E3672C740E480AB17D54D3 /* PBXContainerItemProxy */;
+		};
+		8A8375F74DAF4518A0635AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = 840A7DB9EDA04CE4822F4705 /* PBXContainerItemProxy */;
+		};
+		8ED3E8A6FA8049C8A343E47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB53D44A04E64951A50D879D /* sfml-window */;
+			targetProxy = F620BD294A8E4FFF9B507247 /* PBXContainerItemProxy */;
+		};
+		97D5BD40E1D0483592BDB626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062F227431F44441812B4F05 /* ImGui-SFML */;
+			targetProxy = 405299CA02BC4301B8F3ED43 /* PBXContainerItemProxy */;
+		};
+		B1DAFD447DB3464C98EEF2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB53D44A04E64951A50D879D /* sfml-window */;
+			targetProxy = DAE51487AFCA44DC8A2D0499 /* PBXContainerItemProxy */;
+		};
+		BB472D6D2A2A48818F6D40D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84C2327773444BBC0B1C24 /* sfml-system */;
+			targetProxy = 26574CB4938F471D87ED3CD5 /* PBXContainerItemProxy */;
+		};
+		BB7C957520364270B6707BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84C2327773444BBC0B1C24 /* sfml-system */;
+			targetProxy = 934935C3A87B49489CC1D0DA /* PBXContainerItemProxy */;
+		};
+		BCE1068647B4479B82708006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC7FBB2DD9240D29F4F3025 /* pipo */;
+			targetProxy = 943F735DC5BA4D09819375E4 /* PBXContainerItemProxy */;
+		};
+		C24AB1F906A747DEB3C2DCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C84C2327773444BBC0B1C24 /* sfml-system */;
+			targetProxy = D10DB4039E5749EE901D23F2 /* PBXContainerItemProxy */;
+		};
+		C2BFA7AB8B1E42E8A3DD4270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = E6E123131B5744F4B0DA808C /* PBXContainerItemProxy */;
+		};
+		D844BEAC277A4ADC8862A423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C0E4DDE8854A9B84FE63DC /* ALL_BUILD */;
+			targetProxy = C06D432207774D0EA3C6D757 /* PBXContainerItemProxy */;
+		};
+		E28EFBBC51174E4C9AF6C592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = 377FDBC69600477B98D2C63E /* PBXContainerItemProxy */;
+		};
+		E3984F484D9846BFBB1BB4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = 219CB29F1A284D3788178C71 /* PBXContainerItemProxy */;
+		};
+		EA9CFDDB0930417E808DB155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062F227431F44441812B4F05 /* ImGui-SFML */;
+			targetProxy = 7F569DC7CB5D461B989E7406 /* PBXContainerItemProxy */;
+		};
+		ED7E7E4953B84AC79337D138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0086066FF2EA452DA128389A /* sfml-graphics */;
+			targetProxy = 2E7AEF6191BE431B961F501A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01401C3522824FB4B3ACF4B4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		0560C7D7A796477EBA577666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_SYSTEM_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-system.2.5.dylib",
+					"-lpthread",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		05A5CD3DA12E4010861D763C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					IMGUI_SFML_EXPORTS,
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					IMGUI_SFML_SHARED_LIB,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-graphics.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.1.dylib",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		0828667E0EE54690BEB5DBE6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_WINDOW_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-window.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.1.dylib",
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-window.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		0DAEA6B82C9243DCA049A811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		0F3F9D58D026469ABB1419D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		17CF449D78EA40EE99B341E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		1ABD6F18F46344C08C0D90EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alex_frasca/Documents/pipo/build/src/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-graphics-d.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pipo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/pipo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		210DA45AB6AC4F1F81755B71 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = MinSizeRel;
+		};
+		2769F7B488ED415B9BD0F5AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		30934E3AF68747D68DA8B90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					IMGUI_SFML_EXPORTS,
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					IMGUI_SFML_SHARED_LIB,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC ";
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-graphics-d.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.1.dylib",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML_d";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		3167E2DBB9194B779DD00807 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		3615CE3DCA8E4F2BBC812649 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alex_frasca/Documents/pipo/build/src/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++20'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-graphics.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pipo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/pipo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		3C3E06FBE98C4DEB81DA2F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		3F1C97226A1445D6B07CF443 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_SYSTEM_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-system.2.5.dylib",
+					"-lpthread",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		5217175F178447CDADDDF899 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_SYSTEM_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-system.2.5.dylib",
+					"-lpthread",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		5AC4CA2C3EFB44E883A9023F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_WINDOW_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-fPIC",
+					"-fvisibility=hidden",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-window-d.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.1.dylib",
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-window-d.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		63A486877CB646D9882C01A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_GRAPHICS_EXPORTS,
+					STBI_FAILURE_USERMSG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/headers/stb_image",
+					/Library/Frameworks/Mono.framework/Headers,
+					/usr/local/include/freetype2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-graphics.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					freetype,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-graphics.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-graphics.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		6625FC2B2F454D9F8C264712 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_GRAPHICS_EXPORTS,
+					STBI_FAILURE_USERMSG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/headers/stb_image",
+					/Library/Frameworks/Mono.framework/Headers,
+					/usr/local/include/freetype2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-graphics.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					freetype,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-graphics.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-graphics.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		66AAE87002724DCB8EB5BA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6A83018B59954A97AA01BE82 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		6E3831021AA44F038EDA048B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alex_frasca/Documents/pipo/build/src/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++20'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-graphics.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pipo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/pipo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		789D7FD6B25A407896FDE76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = Release;
+		};
+		7D418FEBC0814C9F8C78583B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		8D6247C33B2242BFB548F8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_GRAPHICS_EXPORTS,
+					STBI_FAILURE_USERMSG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/headers/stb_image",
+					/Library/Frameworks/Mono.framework/Headers,
+					/usr/local/include/freetype2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-graphics-d.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					freetype,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-graphics-d.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-graphics.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		9E911F1AAFFA40608FA7B71C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		AC05A320EF2F4E78839B506F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_WINDOW_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-window.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.1.dylib",
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-window.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		B910225DDF9E417290B20535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		BD011853A7544139A9049CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_SYSTEM_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-system-d.2.5.dylib",
+					"-lpthread",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-system-d.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-system.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		BDAF442416BB4873AD1669A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		BFBC061734984A62920ED7D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_WINDOW_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-window.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.1.dylib",
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-window.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-window.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		C2EE8602A2B34B6C909AA15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 2.5.0;
+				DYLIB_CURRENT_VERSION = 2.5.1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					SFML_GRAPHICS_EXPORTS,
+					STBI_FAILURE_USERMSG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/headers/stb_image",
+					/Library/Frameworks/Mono.framework/Headers,
+					/usr/local/include/freetype2,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/extlibs/libs-osx/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-fvisibility=hidden",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"-install_name",
+					"@rpath/libsfml-graphics.2.5.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					freetype,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-graphics.2.5.1";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/sfml-graphics.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		D84C3185FDB54C68B4B5384D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					IMGUI_SFML_EXPORTS,
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					IMGUI_SFML_SHARED_LIB,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-graphics.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.1.dylib",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		EE7BBB6E8B534B199859AC81 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					IMGUI_SFML_EXPORTS,
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					IMGUI_SFML_SHARED_LIB,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel",
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-graphics.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.1.dylib",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		F01101371B724510A83797BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = Debug;
+		};
+		F02D22F69BE44CEAB2560C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alex_frasca/Documents/pipo/build/src/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++20'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-graphics.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.2.5.1.dylib",
+					"/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.1.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pipo;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/pipo.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E73CA15114349F982E3B144 /* Build configuration list for PBXNativeTarget "ImGui-SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30934E3AF68747D68DA8B90A /* Debug */,
+				D84C3185FDB54C68B4B5384D /* Release */,
+				EE7BBB6E8B534B199859AC81 /* MinSizeRel */,
+				05A5CD3DA12E4010861D763C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		710D6FDC153D43AEA85ACFAF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AAE87002724DCB8EB5BA54 /* Debug */,
+				17CF449D78EA40EE99B341E2 /* Release */,
+				7D418FEBC0814C9F8C78583B /* MinSizeRel */,
+				01401C3522824FB4B3ACF4B4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71CE57165C3F443D9F36DB12 /* Build configuration list for PBXProject "pipo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01101371B724510A83797BF /* Debug */,
+				789D7FD6B25A407896FDE76C /* Release */,
+				210DA45AB6AC4F1F81755B71 /* MinSizeRel */,
+				9E911F1AAFFA40608FA7B71C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72FEA258AC314A73ADA18583 /* Build configuration list for PBXNativeTarget "sfml-graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6247C33B2242BFB548F8FF /* Debug */,
+				C2EE8602A2B34B6C909AA15C /* Release */,
+				63A486877CB646D9882C01A0 /* MinSizeRel */,
+				6625FC2B2F454D9F8C264712 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B4A3308E197488D9186A8A6 /* Build configuration list for PBXNativeTarget "sfml-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD011853A7544139A9049CA2 /* Debug */,
+				0560C7D7A796477EBA577666 /* Release */,
+				5217175F178447CDADDDF899 /* MinSizeRel */,
+				3F1C97226A1445D6B07CF443 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8BE361945BBE44A3B0EF2503 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAEA6B82C9243DCA049A811 /* Debug */,
+				B910225DDF9E417290B20535 /* Release */,
+				6A83018B59954A97AA01BE82 /* MinSizeRel */,
+				2769F7B488ED415B9BD0F5AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE7726EDE8EB442DA10A9C13 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3E06FBE98C4DEB81DA2F4A /* Debug */,
+				BDAF442416BB4873AD1669A8 /* Release */,
+				0F3F9D58D026469ABB1419D0 /* MinSizeRel */,
+				3167E2DBB9194B779DD00807 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7D32BDF8B114C86A0A39E67 /* Build configuration list for PBXNativeTarget "sfml-window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC4CA2C3EFB44E883A9023F /* Debug */,
+				BFBC061734984A62920ED7D0 /* Release */,
+				AC05A320EF2F4E78839B506F /* MinSizeRel */,
+				0828667E0EE54690BEB5DBE6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F088E15A8B434A8784A7B2C0 /* Build configuration list for PBXNativeTarget "pipo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABD6F18F46344C08C0D90EC /* Debug */,
+				F02D22F69BE44CEAB2560C6B /* Release */,
+				6E3831021AA44F038EDA048B /* MinSizeRel */,
+				3615CE3DCA8E4F2BBC812649 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580C24375CEE4529BD918915 /* Project object */;
+}

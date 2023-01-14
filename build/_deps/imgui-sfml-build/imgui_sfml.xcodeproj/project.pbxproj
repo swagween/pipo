@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1D8710C2DECA48D3B1361A25 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2F56FF951854446AB480C45A /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6B508F7E4825488590711A9C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D0C0E4DDE8854A9B84FE63DC /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 392C1610FB4349CA91E5E806 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D61EC869CE7567FA479E5E97 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				42E6ECF315954FB8998B5FA1 /* PBXTargetDependency */,
+				83777B034412418C97C032EC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 96BFAE4AF79F4674BA7ED52C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				39C06F0ED0FF34F474D695E4 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E731C4F459471FB7BBF4EE /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 2993A2FD3E484AC69124D35C /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_demo.cpp */; };
+		54B3BF1B94FD41F6A3D64E7C /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F690DC485B404D56AD9D2EDB /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/CMakeLists.txt */; };
+		66F26E2C01094EC8807765FB /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = E69A892067174A58A45F6377 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		75A54ACB55254A56BD8B76C8 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/imgui-SFML.cpp */ = {isa = PBXBuildFile; fileRef = E72C1872C56247839EB72F64 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/imgui-SFML.cpp */; };
+		8D5341D0BD2D42A89F661904 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 1FA3D9B41D084202AEB97BA6 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_widgets.cpp */; };
+		96C6AC7DD2B94A1097AACA97 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp */ = {isa = PBXBuildFile; fileRef = A92A1037C0C74D12BA9E6ED6 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp */; };
+		9F95D84AF04647CDB8E42189 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 8376F82132F64466B7A51968 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_draw.cpp */; };
+		A675ACB08E2D4E64AA253509 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_tables.cpp */ = {isa = PBXBuildFile; fileRef = 46B499317F7E4B7AB295EE0D /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_tables.cpp */; };
+		B57B1BF4DBC14A74996E4815 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui.cpp */ = {isa = PBXBuildFile; fileRef = B7173363B6184B778281B554 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		267A720D3CDE4CC696F38BC8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		432CC8F6FC994569B5EDDE80 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BE56E1FDD06F4B7981E155B7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D0FD6EC0CDAA4823AA5164B6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		09E79DAB79DD4E029C823696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB3782EB79545EE9BC5A783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		958F2C161DED45F2A11C26B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB3782EB79545EE9BC5A783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C0E4DDE8854A9B84FE63DC;
+			remoteInfo = ALL_BUILD;
+		};
+		9A5902E93CB3428FB0C4B020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB3782EB79545EE9BC5A783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA61E22FBB94F0EB0BB1696;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6A47DBEFE9846BEBDB0FD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB3782EB79545EE9BC5A783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062F227431F44441812B4F05;
+			remoteInfo = "ImGui-SFML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA3D9B41D084202AEB97BA6 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_widgets.cpp"; sourceTree = "<absolute>"; };
+		2993A2FD3E484AC69124D35C /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_demo.cpp"; sourceTree = "<absolute>"; };
+		46B499317F7E4B7AB295EE0D /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_tables.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_tables.cpp; path = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_tables.cpp"; sourceTree = "<absolute>"; };
+		8376F82132F64466B7A51968 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_draw.cpp"; sourceTree = "<absolute>"; };
+		A92A1037C0C74D12BA9E6ED6 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_stdlib.cpp; path = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp"; sourceTree = "<absolute>"; };
+		B7173363B6184B778281B554 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui.cpp"; sourceTree = "<absolute>"; };
+		BE02DC147C6A4928B26762B3 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E69A892067174A58A45F6377 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E72C1872C56247839EB72F64 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/imgui-SFML.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "imgui-SFML.cpp"; path = "imgui-SFML.cpp"; sourceTree = SOURCE_ROOT; };
+		F18E0FC06B9D491ABDBD1937 /* ImGui-SFML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libImGui-SFML_d.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F690DC485B404D56AD9D2EDB /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BABD8A0766084FECAEB504DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF4470C196842FEADBBFF6C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72C1872C56247839EB72F64 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/imgui-SFML.cpp */,
+				B7173363B6184B778281B554 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui.cpp */,
+				2993A2FD3E484AC69124D35C /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_demo.cpp */,
+				8376F82132F64466B7A51968 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_draw.cpp */,
+				46B499317F7E4B7AB295EE0D /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_tables.cpp */,
+				1FA3D9B41D084202AEB97BA6 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_widgets.cpp */,
+				A92A1037C0C74D12BA9E6ED6 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7A6E5FD7E6374BFD9702C2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18E0FC06B9D491ABDBD1937 /* ImGui-SFML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2772811DAFA4248BF34F134 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B88EF4FAF50D43958D31CA38 = {
+			isa = PBXGroup;
+			children = (
+				DA1402EAAD534CAA9607F5ED /* ImGui-SFML */,
+				EE96BDF40BA54EF6A61374EA /* ALL_BUILD */,
+				7A6E5FD7E6374BFD9702C2F3 /* Products */,
+				F164839182024AE39E6B466E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1402EAAD534CAA9607F5ED /* ImGui-SFML */ = {
+			isa = PBXGroup;
+			children = (
+				0CF4470C196842FEADBBFF6C /* Source Files */,
+				F690DC485B404D56AD9D2EDB /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/CMakeLists.txt */,
+			);
+			name = "ImGui-SFML";
+			sourceTree = "<group>";
+		};
+		EE96BDF40BA54EF6A61374EA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B2772811DAFA4248BF34F134 /* CMake Rules */,
+				BE02DC147C6A4928B26762B3 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F164839182024AE39E6B466E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E69A892067174A58A45F6377 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks/OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062F227431F44441812B4F05 /* ImGui-SFML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3573AF58CFE41B7B0DF6F9C /* Build configuration list for PBXNativeTarget "ImGui-SFML" */;
+			buildPhases = (
+				375947E1A9EC44DD93A56D13 /* Sources */,
+				BABD8A0766084FECAEB504DA /* Frameworks */,
+				45EFD590540B73B920429E25 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05EE9568C3F74F70B11A9F93 /* PBXTargetDependency */,
+			);
+			name = "ImGui-SFML";
+			productName = "ImGui-SFML";
+			productReference = F18E0FC06B9D491ABDBD1937 /* ImGui-SFML */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB3782EB79545EE9BC5A783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1410;
+			};
+			buildConfigurationList = CC0F1938EC574D96AC889012 /* Build configuration list for PBXProject "imgui_sfml" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				432CC8F6FC994569B5EDDE80 /* Debug */,
+				267A720D3CDE4CC696F38BC8 /* Release */,
+				BE56E1FDD06F4B7981E155B7 /* MinSizeRel */,
+				D0FD6EC0CDAA4823AA5164B6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B88EF4FAF50D43958D31CA38;
+			projectDirPath = "../imgui-sfml-src";
+			projectRoot = "";
+			targets = (
+				D0C0E4DDE8854A9B84FE63DC /* ALL_BUILD */,
+				062F227431F44441812B4F05 /* ImGui-SFML */,
+				DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */,
+				1D8710C2DECA48D3B1361A25 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39C06F0ED0FF34F474D695E4 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  make -f /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  make -f /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  make -f /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  make -f /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		45EFD590540B73B920429E25 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug/libImGui-SFML_d.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release/libImGui-SFML.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel/libImGui-SFML.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo/libImGui-SFML.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D61EC869CE7567FA479E5E97 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375947E1A9EC44DD93A56D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A54ACB55254A56BD8B76C8 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src/imgui-SFML.cpp */,
+				B57B1BF4DBC14A74996E4815 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui.cpp */,
+				00E731C4F459471FB7BBF4EE /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_demo.cpp */,
+				9F95D84AF04647CDB8E42189 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_draw.cpp */,
+				A675ACB08E2D4E64AA253509 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_tables.cpp */,
+				8D5341D0BD2D42A89F661904 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/imgui_widgets.cpp */,
+				96C6AC7DD2B94A1097AACA97 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05EE9568C3F74F70B11A9F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = 9A5902E93CB3428FB0C4B020 /* PBXContainerItemProxy */;
+		};
+		42E6ECF315954FB8998B5FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062F227431F44441812B4F05 /* ImGui-SFML */;
+			targetProxy = B6A47DBEFE9846BEBDB0FD40 /* PBXContainerItemProxy */;
+		};
+		6B508F7E4825488590711A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C0E4DDE8854A9B84FE63DC /* ALL_BUILD */;
+			targetProxy = 958F2C161DED45F2A11C26B0 /* PBXContainerItemProxy */;
+		};
+		83777B034412418C97C032EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA61E22FBB94F0EB0BB1696 /* ZERO_CHECK */;
+			targetProxy = 09E79DAB79DD4E029C823696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07E7CA6736CF4C96B8D9188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0E928B4E80C84D8698116920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = Release;
+		};
+		0E9650E097DB41DE89A937E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		18B2C14049CC4C87903EAA58 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32671FC69910469589C3ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = Debug;
+		};
+		36140FEEF0CA4EE599CD9E5C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_SFML_EXPORTS,"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",IMGUI_SFML_SHARED_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-graphics.2.5.1.dylib","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-window.2.5.1.dylib","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/RelWithDebInfo/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		399C08F795774E5AA0C14CC2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3C14007734DE4AF8907032A5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3DDBB01D7BFD4A958991A2F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3FCDD132C8B742E7808720F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4252C7DEE70A4177A1EE80EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_SFML_EXPORTS,"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",IMGUI_SFML_SHARED_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-graphics.2.5.1.dylib","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-window.2.5.1.dylib","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Release/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		679B1606A9F645BABFF11BB5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		82B5564B084E4CA59685B199 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		89081AD7138244C9B668AB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_SFML_EXPORTS,"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",IMGUI_SFML_SHARED_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-graphics-d.2.5.1.dylib","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-window-d.2.5.1.dylib","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/Debug/libsfml-system-d.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML_d";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AE2AD140A541486DA2DCC9D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/alex_frasca/Documents/pipo/build/build;
+			};
+			name = MinSizeRel;
+		};
+		CD7541828DA74A1FB14AD3E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_SFML_EXPORTS,"'IMGUI_USER_CONFIG=\"imconfig-SFML.h\"'",IMGUI_SFML_SHARED_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/imgui-src","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel","$(inherited)");
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-graphics.2.5.1.dylib","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-window.2.5.1.dylib","-Xlinker -framework -Xlinker OpenGL","-Xlinker -framework -Xlinker OpenGL","/Users/alex_frasca/Documents/pipo/build/_deps/sfml-build/lib/MinSizeRel/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "ImGui-SFML";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alex_frasca/Documents/pipo/build/build/ImGui-SFML.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DB7AD6A8270D4F45AE10B5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E9E82741481A48B6A0FF0F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F346A1C8FCA24810AD57356F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F8CD6E9780B0449C9FC74C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F56FF951854446AB480C45A /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD6E9780B0449C9FC74C07 /* Debug */,
+				F346A1C8FCA24810AD57356F /* Release */,
+				3C14007734DE4AF8907032A5 /* MinSizeRel */,
+				3FCDD132C8B742E7808720F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		392C1610FB4349CA91E5E806 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9650E097DB41DE89A937E2 /* Debug */,
+				DB7AD6A8270D4F45AE10B5EF /* Release */,
+				679B1606A9F645BABFF11BB5 /* MinSizeRel */,
+				3DDBB01D7BFD4A958991A2F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96BFAE4AF79F4674BA7ED52C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E82741481A48B6A0FF0F62 /* Debug */,
+				07E7CA6736CF4C96B8D9188A /* Release */,
+				82B5564B084E4CA59685B199 /* MinSizeRel */,
+				18B2C14049CC4C87903EAA58 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC0F1938EC574D96AC889012 /* Build configuration list for PBXProject "imgui_sfml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32671FC69910469589C3ADF2 /* Debug */,
+				0E928B4E80C84D8698116920 /* Release */,
+				AE2AD140A541486DA2DCC9D0 /* MinSizeRel */,
+				399C08F795774E5AA0C14CC2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F3573AF58CFE41B7B0DF6F9C /* Build configuration list for PBXNativeTarget "ImGui-SFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89081AD7138244C9B668AB4C /* Debug */,
+				4252C7DEE70A4177A1EE80EF /* Release */,
+				CD7541828DA74A1FB14AD3E4 /* MinSizeRel */,
+				36140FEEF0CA4EE599CD9E5C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB3782EB79545EE9BC5A783 /* Project object */;
+}

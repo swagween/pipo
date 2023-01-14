@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4BDC0A7F0B5E496283869DB9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDC296F27BDE4746AE1F26CA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8695A0AB2B31735B733DE752 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8416888D81EB462FB310C131 /* PBXTargetDependency */,
+				02CC324A5BA342C59584C90C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		67E1C1CC8D164DA5A64D7F23 /* imgui-sfml-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F4BE67489741436F8D84999A /* Build configuration list for PBXAggregateTarget "imgui-sfml-populate" */;
+			buildPhases = (
+				CD61708F3C7157D718AE3B0A /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-mkdir */,
+				35AA5AA138F9CEBB03FF5D49 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-download */,
+				7C2F98EB14170914AB25174B /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-update */,
+				99AC36841061D1C2A796F202 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-patch */,
+				65561EA8047B74416C8E53EA /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-configure */,
+				E449C86E33FFC6932BE109AC /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-build */,
+				7E6CC4742A153E3B5BD698A5 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-install */,
+				E1B53D792A79CEB4CEB6C181 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-test */,
+				B1710B70E22938BA9BA3272B /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-complete */,
+				9FF0558C6DCD1EC622A2D985 /* Generate CMakeFiles/imgui-sfml-populate */,
+			);
+			dependencies = (
+				4AA43703B9C6425DB8B79C89 /* PBXTargetDependency */,
+			);
+			name = "imgui-sfml-populate";
+			productName = "imgui-sfml-populate";
+		};
+		BBB1D3F9D53B4BE3A58C30BD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F14AE32C8C6C4CBB98EF77AE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0C4D50D1D87D9CABCD8EC805 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		9971CC14EBF24A3AA1E4A78D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		32DE1C1D0F384C1A920FD91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A10A49B6F14613BD1E05AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB1D3F9D53B4BE3A58C30BD;
+			remoteInfo = ZERO_CHECK;
+		};
+		76DEEB9252DF49708A559D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A10A49B6F14613BD1E05AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBB1D3F9D53B4BE3A58C30BD;
+			remoteInfo = ZERO_CHECK;
+		};
+		BC4C77BB32584E5B9058DE74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A10A49B6F14613BD1E05AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67E1C1CC8D164DA5A64D7F23;
+			remoteInfo = "imgui-sfml-populate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7C967E10F814D5C8FB696E8 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D4D7B3150BE841B2922D2DCB /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1406522645824AD0B4E23AF7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				697975E23C964BF79AE8CD73 /* CMake Rules */,
+				D4D7B3150BE841B2922D2DCB /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3C12E63929DB4EF2ABE6B6C5 = {
+			isa = PBXGroup;
+			children = (
+				B13F331F92B144CAABF27FCD /* imgui-sfml-populate */,
+				1406522645824AD0B4E23AF7 /* ALL_BUILD */,
+				AD28B8374A4C4F5FB8664883 /* Products */,
+				6544288D1BDE403D92B73DCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6544288D1BDE403D92B73DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		697975E23C964BF79AE8CD73 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8F1E0C4A8C374EE4A77A4C3B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AD28B8374A4C4F5FB8664883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13F331F92B144CAABF27FCD /* imgui-sfml-populate */ = {
+			isa = PBXGroup;
+			children = (
+				8F1E0C4A8C374EE4A77A4C3B /* CMake Rules */,
+				A7C967E10F814D5C8FB696E8 /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeLists.txt */,
+			);
+			name = "imgui-sfml-populate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B8A10A49B6F14613BD1E05AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1410;
+			};
+			buildConfigurationList = D0D8371E751049F79514CE21 /* Build configuration list for PBXProject "imgui-sfml-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9971CC14EBF24A3AA1E4A78D /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3C12E63929DB4EF2ABE6B6C5;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				4BDC0A7F0B5E496283869DB9 /* ALL_BUILD */,
+				BBB1D3F9D53B4BE3A58C30BD /* ZERO_CHECK */,
+				67E1C1CC8D164DA5A64D7F23 /* imgui-sfml-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C4D50D1D87D9CABCD8EC805 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild
+  make -f /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		35AA5AA138F9CEBB03FF5D49 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-mkdir","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-gitinfo.txt"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-download";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitclone.cmake
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		62649B2E339389834ED07615 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		65561EA8047B74416C8E53EA /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-patch","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-cfgcmd.txt"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-configure";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7C2F98EB14170914AB25174B /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-download"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-update";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		7E6CC4742A153E3B5BD698A5 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-build"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-install";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8695A0AB2B31735B733DE752 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		99AC36841061D1C2A796F202 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-update"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-patch";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9FF0558C6DCD1EC622A2D985 /* Generate CMakeFiles/imgui-sfml-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-complete"			);
+			name = "Generate CMakeFiles/imgui-sfml-populate";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B1710B70E22938BA9BA3272B /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-build","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-configure","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-download","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-install","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-mkdir","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-patch","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-test","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-complete";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-complete
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		CD61708F3C7157D718AE3B0A /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-mkdir";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild
+  /Applications/CMake.app/Contents/bin/cmake -Dcfgdir=/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-mkdirs.cmake
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E1B53D792A79CEB4CEB6C181 /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-install"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-test";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E449C86E33FFC6932BE109AC /* Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-configure"			);
+			name = "Generate imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-build";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-sfml-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-sfml-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02CC324A5BA342C59584C90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB1D3F9D53B4BE3A58C30BD /* ZERO_CHECK */;
+			targetProxy = 76DEEB9252DF49708A559D4C /* PBXContainerItemProxy */;
+		};
+		4AA43703B9C6425DB8B79C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBB1D3F9D53B4BE3A58C30BD /* ZERO_CHECK */;
+			targetProxy = 32DE1C1D0F384C1A920FD91A /* PBXContainerItemProxy */;
+		};
+		8416888D81EB462FB310C131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67E1C1CC8D164DA5A64D7F23 /* imgui-sfml-populate */;
+			targetProxy = BC4C77BB32584E5B9058DE74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22AFBEBBF08C4AEB91E19B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-sfml-subbuild/build";
+			};
+			name = Debug;
+		};
+		3196057735544622BBA5C304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		975C2D83B8684D26B832B493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imgui-sfml-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E046A52C9F384B19B36155D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D8371E751049F79514CE21 /* Build configuration list for PBXProject "imgui-sfml-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AFBEBBF08C4AEB91E19B4F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDC296F27BDE4746AE1F26CA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E046A52C9F384B19B36155D9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F14AE32C8C6C4CBB98EF77AE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3196057735544622BBA5C304 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4BE67489741436F8D84999A /* Build configuration list for PBXAggregateTarget "imgui-sfml-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975C2D83B8684D26B832B493 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A10A49B6F14613BD1E05AA /* Project object */;
+}

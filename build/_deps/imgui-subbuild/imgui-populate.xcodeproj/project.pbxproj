@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		11C7CC5C5B0D465087385C49 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C310BB7E1C047508CE8A196 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DA5C9840FFE6420DE377EFB3 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B5B0015DBEFA4DB083121D05 /* PBXTargetDependency */,
+				D10A9F26AB3C478298E65A61 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		4DEE35F5BDA14F3B9C4B5F5C /* imgui-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0BC815A9D8FF40F987A2974B /* Build configuration list for PBXAggregateTarget "imgui-populate" */;
+			buildPhases = (
+				D4F8BA5CC9E77EAA42763E9A /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir */,
+				8D9B29EC862F736E1E40BF18 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download */,
+				A5E83C9BB9232FA638B22E4C /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-update */,
+				657D547322C5E8AE6E1348AF /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-patch */,
+				E3CC099C29C383BAADED1B0E /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-configure */,
+				4CECA132D1216B76133B3311 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-build */,
+				309811DD247D3E9A67CBE2AF /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-install */,
+				044D59EF85CD2ACA859D7FE8 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-test */,
+				DFE77E6D39C080026C8A5D97 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-complete */,
+				354C895344D1139F1D0EF5BC /* Generate CMakeFiles/imgui-populate */,
+			);
+			dependencies = (
+				6F80E61579774DE8BD2A9EB9 /* PBXTargetDependency */,
+			);
+			name = "imgui-populate";
+			productName = "imgui-populate";
+		};
+		8628814D10D7459F8DC850F3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D3ECA5F3B0745DB8A34FAD4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6C6E5A560306CC1668361AFB /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		3BE271B859804A0081E90301 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		E78F69754DC44F6A811FFD54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 243B453979CD468C9B4D8C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DEE35F5BDA14F3B9C4B5F5C;
+			remoteInfo = "imgui-populate";
+		};
+		EC8F451DB5424C388BF2794A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 243B453979CD468C9B4D8C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8628814D10D7459F8DC850F3;
+			remoteInfo = ZERO_CHECK;
+		};
+		F60B22B04B6846979B8F1B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 243B453979CD468C9B4D8C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8628814D10D7459F8DC850F3;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1069E7A76AD2404CBF1AB55C /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		714523F70E8943438D1C651A /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		026BD3C84A044B3298E206DC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		302FA92EB5614CE9BA70952D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3BF553907E4A4AECA43F4FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E580707E66B4276B702EA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF1732B8C2D448285C3C0E2 /* imgui-populate */ = {
+			isa = PBXGroup;
+			children = (
+				026BD3C84A044B3298E206DC /* CMake Rules */,
+				1069E7A76AD2404CBF1AB55C /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeLists.txt */,
+			);
+			name = "imgui-populate";
+			sourceTree = "<group>";
+		};
+		B92CEBA4A1D84DAAB009EDD3 = {
+			isa = PBXGroup;
+			children = (
+				9CF1732B8C2D448285C3C0E2 /* imgui-populate */,
+				D0521CF4C7F34D589127924A /* ALL_BUILD */,
+				5E580707E66B4276B702EA08 /* Products */,
+				3BF553907E4A4AECA43F4FC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0521CF4C7F34D589127924A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				302FA92EB5614CE9BA70952D /* CMake Rules */,
+				714523F70E8943438D1C651A /* /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		243B453979CD468C9B4D8C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1410;
+			};
+			buildConfigurationList = 26B1E12B41D8421AAF472F96 /* Build configuration list for PBXProject "imgui-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3BE271B859804A0081E90301 /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B92CEBA4A1D84DAAB009EDD3;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				11C7CC5C5B0D465087385C49 /* ALL_BUILD */,
+				8628814D10D7459F8DC850F3 /* ZERO_CHECK */,
+				4DEE35F5BDA14F3B9C4B5F5C /* imgui-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044D59EF85CD2ACA859D7FE8 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-install"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-test";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		309811DD247D3E9A67CBE2AF /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-build"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-install";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		354C895344D1139F1D0EF5BC /* Generate CMakeFiles/imgui-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-complete"			);
+			name = "Generate CMakeFiles/imgui-populate";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4CECA132D1216B76133B3311 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-configure"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-build";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		657D547322C5E8AE6E1348AF /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-update"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-patch";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6C6E5A560306CC1668361AFB /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild
+  make -f /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8D9B29EC862F736E1E40BF18 /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-gitinfo.txt"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A5E83C9BB9232FA638B22E4C /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-update";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-src
+  /Applications/CMake.app/Contents/bin/cmake -P /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		CC6C955991E328DCF77332F1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D4F8BA5CC9E77EAA42763E9A /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild
+  /Applications/CMake.app/Contents/bin/cmake -Dcfgdir=/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-mkdirs.cmake
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DA5C9840FFE6420DE377EFB3 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DFE77E6D39C080026C8A5D97 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-build","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-configure","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-download","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-install","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-mkdir","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-patch","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-test","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-complete";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-complete
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E3CC099C29C383BAADED1B0E /* Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-patch","/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-cfgcmd.txt"			);
+			name = "Generate imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-configure";
+			outputPaths = (
+"/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/imgui-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alex_frasca/Documents/pipo/build/_deps/imgui-build
+  /Applications/CMake.app/Contents/bin/cmake -E echo_append
+  /Applications/CMake.app/Contents/bin/cmake -E touch /Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/imgui-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F80E61579774DE8BD2A9EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8628814D10D7459F8DC850F3 /* ZERO_CHECK */;
+			targetProxy = EC8F451DB5424C388BF2794A /* PBXContainerItemProxy */;
+		};
+		B5B0015DBEFA4DB083121D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DEE35F5BDA14F3B9C4B5F5C /* imgui-populate */;
+			targetProxy = E78F69754DC44F6A811FFD54 /* PBXContainerItemProxy */;
+		};
+		D10A9F26AB3C478298E65A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8628814D10D7459F8DC850F3 /* ZERO_CHECK */;
+			targetProxy = F60B22B04B6846979B8F1B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4673143ED6FD4A098181EB5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = "/Users/alex_frasca/Documents/pipo/build/_deps/imgui-subbuild/build";
+			};
+			name = Debug;
+		};
+		823A837A4AB0409E9B6889C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CE7541B65DD14A20BB818559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E9A4943CC6674C2FBEE32868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "imgui-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC815A9D8FF40F987A2974B /* Build configuration list for PBXAggregateTarget "imgui-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A4943CC6674C2FBEE32868 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D3ECA5F3B0745DB8A34FAD4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7541B65DD14A20BB818559 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26B1E12B41D8421AAF472F96 /* Build configuration list for PBXProject "imgui-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4673143ED6FD4A098181EB5B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C310BB7E1C047508CE8A196 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823A837A4AB0409E9B6889C7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 243B453979CD468C9B4D8C41 /* Project object */;
+}

@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/src/SFML/Graphics/Text.cpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Config.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Font.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/String.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/System/String.inl \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+  /Users/alex_frasca/Documents/pipo/build/_deps/sfml-src/include/SFML/Graphics/View.hpp
