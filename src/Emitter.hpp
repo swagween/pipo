@@ -44,6 +44,7 @@ public:
         if(elapsed > static_cast<Time>(behavior.rate)) { //make a particle at a certain rate
             elements.push(Particle());
             particles.push_back(Particle());
+            particles.back().lifespan = lifespan;
             particles.back().physics = physics; //initialize the particles with emitter's physics
             elapsed = Time::zero();
         }
@@ -90,6 +91,7 @@ public:
     void set_rate(float r) { behavior.rate = r; }
     void set_expulsion_force(float f) { behavior.expulsion_force = f; }
     void set_friction(float f) { physics.friction = f; }
+    void set_lifespan(int l) { lifespan = l; }
     
     std::vector<Particle>& get_particles() {
         return particles;
@@ -112,6 +114,8 @@ private:
     uint32_t max_size = default_size;
     
     Time elapsed{};
+    
+    int lifespan{};
     
 };
 

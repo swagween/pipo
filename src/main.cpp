@@ -41,7 +41,10 @@ float part_spawn_rate = 0.05;
 float gravity = 0.01f;
 float wind = 0.001f;
 float expulsion = 0.01;
+int avg_lifetime = 50;
 int dynamic_time_step = 100;
+float attractor_variance = 0.001;
+float attractor_friction = 0.97;
 bool grav = false;
 
 static void show_overlay(bool* debug) {
@@ -89,13 +92,17 @@ static void show_overlay(bool* debug) {
     if (ImGui::Begin("Parameters")) {
         ImGui::Text("Adjust Variables");
         ImGui::SliderInt("##rate", &spawn_rate, 0, 30, "Spawn Rate");
-        ImGui::SliderFloat("##partrate", &part_spawn_rate, 60.0f, 0.0f, "Particle Spawn Rate", ImGuiSliderFlags_Logarithmic);
+        ImGui::SliderInt("##life", &avg_lifetime, 0, 100, "Particle Lifetime");
+        ImGui::SliderFloat("##partrate", &part_spawn_rate, 30.0f, 0.0f, "Particle Spawn Rate", ImGuiSliderFlags_Logarithmic);
         ImGui::SliderFloat("##exprate", &expulsion, 0.0f, 0.05f, "Particle Expulsion Force", ImGuiSliderFlags_Logarithmic);
         ImGui::SliderFloat("##grav", &gravity, 0.0f, 10.0f, "Gravity", ImGuiSliderFlags_Logarithmic);
         ImGui::SliderFloat("##wind", &wind, 0.0f, 10.0f, "Wind", ImGuiSliderFlags_Logarithmic);
+        ImGui::Separator();
         if(ImGui::Button("Toggle Attractor")) {
             grav = !grav;
         }
+        ImGui::SliderFloat("##av", &attractor_variance, 0.0f, 1.0f, "Attractor Variance", ImGuiSliderFlags_Logarithmic);
+        ImGui::SliderFloat("##af", &attractor_friction, 1.0f, 0.8f, "Attractor Friction");
     }
     ImGui::End();
 }
@@ -205,8 +212,11 @@ void run(char** argv) {
                 int randy = components::random_range(0, screen_dimensions.y);
                 int randv = components::random_range(40, 62);
                 int randa = components::random_range(-10, 10);
+                int randl = components::random_range(100, 200);
+                float randlf = randl * 0.01;
                 gems.push_back(gen::Emitter(comet_trail));
-                gems.back().set_position(randx, -20);
+                gems.back().set_lifespan((int)avg_lifetime*randlf);
+                gems.back().set_position(randx, -300);
                 gems.back().apply_force({(float)randa*0.1f, (float)0.1*randv});
             }
             for(int i = (int)gems.size() - 1; i >= 0; --i) {
@@ -223,8 +233,12 @@ void run(char** argv) {
                     float str = G / mag*0.8;
                     force_x *= str;
                     force_y *= str;
-                    gems.at(i).set_friction(0.97);
-                    gems.at(i).apply_force({force_x, force_y});
+                    int randx = components::random_range(-100, 100);
+                    float rx = randx * attractor_variance;
+                    int randy = components::random_range(-100, 100);
+                    float ry = randy * attractor_variance;
+                    gems.at(i).set_friction(attractor_friction);
+                    gems.at(i).apply_force({rx + force_x, ry + force_y});
                 }
                 gems.at(i).update(dt);
                 gems.at(i).set_rate(part_spawn_rate);
@@ -233,7 +247,7 @@ void run(char** argv) {
                     gems.at(i).set_friction(0.999f);
                     gems.at(i).apply_force({wind, gravity});
                 }
-                if(gems.at(i).get_physics().position.y > screen_dimensions.y*2 || gems.size() > 50) {
+                if(gems.at(i).get_physics().position.y > screen_dimensions.y * 4 || gems.size() > 50) {
                     gems.erase(gems.begin() + i);
                 }
             }
